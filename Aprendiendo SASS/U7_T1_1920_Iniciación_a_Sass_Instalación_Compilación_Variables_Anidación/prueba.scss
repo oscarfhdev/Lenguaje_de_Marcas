@@ -1,0 +1,18 @@
+//Variables
+$colorprincipal: red;
+$ancho: 600px;
+$ancho_botones: $ancho;
+body{
+  background-color: $colorprincipal;
+}
+
+//Anidación
+form{
+  width: $ancho;
+  button{
+    width: $ancho_botones;
+  }
+  input{
+    width: $ancho_botones;
+  }
+}
