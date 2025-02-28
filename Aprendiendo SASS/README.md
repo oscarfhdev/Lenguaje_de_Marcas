@@ -1,6 +1,6 @@
 # Aprendiendo Sass
 
-Este repositorio contiene mi proyecto donde estoy aprendiendo a usar **Sass**, un preprocesador CSS que facilita el desarrollo de estilos web.
+Este directorio en mi repositorio contiene mi proyecto donde estoy aprendiendo a usar **Sass**, un preprocesador CSS que facilita el desarrollo de estilos web.
 
 ## ¿Por qué usar Sass?
 
@@ -13,5 +13,6 @@ Sass ofrece múltiples ventajas que ayudan a mejorar la productividad y organiza
 - **Operaciones**: Realiza cálculos y operaciones directamente en el código, mejorando la flexibilidad.
 
 En resumen, Sass hace que escribir CSS sea más rápido, modular y fácil de mantener.
+
 
 
