@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reservation Form</title>
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <div style="border: 5px solid blue; width: 600px; padding: 20px;">
+        <h1>Reservation Request</h1>
+        <fieldset>
+
+        <form>
+            <p style="color: blue; font-weight: bold ">General Information</p>
+            <table style="border: 2px solid black ; border-collapse: collapse; width: 550px">
+                <tr>
+                    <td style="width: 100px;"><label for="arrival_date">Arrival Date:</label></td>
+                    <td><input type="text" id="arrival_date" name="arrival_date"></td>
+                </tr>
+                <tr>
+                    <td><label for="nights">Nights:</label></td>
+                    <td><input type="text" id="nights" name="nights"></td>
+                </tr>
+                <tr>
+                    <td><label for="adults">Adults:</label></td>
+                    <td>
+                        <select id="adults" name="adults">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="childrens">Children:</label></td>
+                    <td>
+                        <select id="childrens" name="childrens">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+
+            <br>
+            <p style="color: blue; font-weight: bold ">Preferences</p>
+            <table style="border: 2px solid black ; border-collapse: collapse; width: 550px">
+
+            <tr>
+                    <td style="width: 100px;"><label>Room Type:</label></td>
+                    <td style="width: 100px">
+                        <input type="radio" id="standard" name="room_type" value="standard">
+                        <label for="standard">Standard</label><br>
+                    </td>
+                    <td style="width: 100px">
+                        <input type="radio" id="buisness" name="room_type" value="buisness">
+                        <label for="buisness">Buisness</label><br>
+                    </td>
+                    <td>
+                        <input type="radio" id="suite" name="room_type" value="suite">
+                        <label for="suite">Suite</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Bed Type:</label></td>
+                    <td>
+                        <input type="radio" id="king" name="bed_type" value="king">
+                        <label for="king">King</label><br>
+                    </td>
+                    <td>
+                        <input type="radio" id="double2" name="bed_type" value="double2"  style="margin-left: -20px">
+                        <label for="double2">Double Double</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" id="smoking" name="smoker" value="smoking">
+                        <label for="smoking">Smoking</label> <br>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <p style="color: blue; font-weight: bold ">Concat Information</p>
+            <table style="border: 2px solid black ; border-collapse: collapse; width: 550px">
+                <tr>
+                    <td style="width: 100px;"><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone:</label></td>
+                    <td><input type="number" id="phone" name="phone"></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>

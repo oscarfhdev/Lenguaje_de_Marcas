@@ -1,0 +1,143 @@
+body{
+    width: 95vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 0.5fr 3fr 1fr;
+    grid-template-areas: "header"
+                            "menu"
+                            "content"
+                            "footer";
+    margin: 1vw 0 2vw 2vw;
+}
+
+header h1{
+    grid-area: header;
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header p{
+    grid-area: header;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    grid-area: menu;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+#menu ul{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1vw;
+    gap: 3vw;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+#content{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#content_izquierda{
+    width: 20%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+#content_izquierda ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li:hover{
+    background-color: white;
+    color: black;
+
+}
+
+#grey_largo{
+    background-color: grey;
+    padding: 4vw 1vw;
+}
+
+.grey, .white{
+    padding: 1vw;
+}
+
+#content_izquierda h4{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.grey{
+    background-color: grey;
+}
+
+#content_centro{
+    width: 15%;
+}
+
+#content_centro div{
+    background-color: grey;
+    padding: 1vh;
+    margin-top: 1vw;
+}
+
+#content_centro p{
+    font-weight: bold;
+    text-align: center;
+}
+
+#content_centro img{
+    width: 100%;
+    height: 100%;
+}
+
+#content_derecho{
+    width: 20%;
+}
+
+#content_derecho h4{
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+footer p{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

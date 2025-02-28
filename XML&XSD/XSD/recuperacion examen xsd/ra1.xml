@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ra4.xsd">
+    <libros>
+
+        <libro ISBN="18981sdd">
+            <titulo>El niño del Pijama de Rayas</titulo>
+            <autor>John Boyne</autor>
+            <ano_publicacion>2006</ano_publicacion>
+            <generos>
+                <genero>Novela Histórica</genero>
+                <genero>Drama</genero>
+            </generos>
+
+            <description_list>
+                <description>Ambientada en la Segunda Guerra Mundial. Se trata de una conmovedora historia vista a través de los ojos inocentes de Bruno, de ocho años de edad, hijo del comandante de un campo de concentración, que inicia una amistad con un niño judío, del otro lado de la valla, que tendrá inesperadas consecuencias.</description>
+                <description>El niño con el pijama de rayas es una novela de ficción dramática publicada en 2006 por el autor irlandés John Boyne. A fecha de 2012, se han vendido más de cinco millones de ejemplares de la obra por todo el mundo y ha sido traducido a más de treinta idiomas.</description>
+            </description_list>
+        </libro>
+
+
+        <libro ISBN="19387fds">
+            <titulo>El Ingenioso hidalgo don Quijote de la Mancha</titulo>
+            <autor>Miguel de Cervantes</autor>
+            <ano_publicacion>1605</ano_publicacion>
+            <generos>
+                <genero>Novela Histórica</genero>
+                <genero>Parodia</genero>
+            </generos>
+
+            <description_list>
+                <description>Representa la primera obra literaria que se puede clasificar como novela moderna y también la primera novela polifónica, y como tal, ejerció un influjo abrumador en toda la narrativa europea posterior.</description>
+                <description>Don Quijote de la Mancha es una novela escrita por el español Miguel de Cervantes Saavedra. Publicada su primera parte con el título de El ingenioso hidalgo don Quijote de la Mancha a comienzos de 1605, es la obra más destacada de la literatura española y una de las principales de la literatura universal.</description>
+            </description_list>
+
+        </libro>
+
+
+        <libro ISBN="48184jfsa">
+            <titulo>La Galatea</titulo>
+            <autor>Miguel de Cervantes</autor>
+            <ano_publicacion>1585</ano_publicacion>
+            <generos>
+                <genero>Novela Histórica</genero>
+                <genero>Ficcion</genero>
+            </generos>
+
+            <description_list>
+                <description>La Galatea es una novela de Miguel de Cervantes publicada en 1585 en Alcalá de Henares con el título de Primera parte de La Galatea, dividida en seis libros.</description>
+                <description>Es una novela pastoril, un género narrativo cuyos protagonistas, bajo la apariencia pastores idealizados, cuentan historias de amores reales. Ambientada a orillas del río Tajo, entre sus protagonistas están el pastor Elicio y el rico pastor lusitano Erastro. Ambos se disputan el amor de una pastora, Galatea.</description>
+            </description_list>
+
+    </libro>
+    </libros>
+</biblioteca>

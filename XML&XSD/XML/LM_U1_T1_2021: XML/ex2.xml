@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster>
+    <nodos>
+    
+        <nodo>
+            <nombre>Nodo Entornos de Desarrollo</nombre>
+            <direccion_ip>172.16.0.1</direccion_ip>
+            <maquinas_virtuales>
+
+                <maquina_virtual>
+                    <nombre>Ubuntu Entornos de Desarrollo</nombre>
+                    <sistema_operativo>Ubuntu 24.04</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.0.1</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:01</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.0.2</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:02</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Windows Server Entornos de Desarrollo</nombre>
+                    <sistema_operativo>Windows Server 2019</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>Controlador Genérico</tipo>
+                            <direccion_ip>10.0.0.3</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:03</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Solo Anfitrión</tipo>
+                            <direccion_ip>10.0.0.4</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:04</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>CentOS Entornos de Desarrollo</nombre>
+                    <sistema_operativo>CentOS 8</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.0.5</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:05</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.0.6</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:06</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+
+        <nodo>
+            <nombre>Nodo Sistemas Informáticos</nombre>
+            <direccion_ip>172.16.0.2</direccion_ip>
+            <maquinas_virtuales>
+
+                <maquina_virtual>
+                    <nombre>Ubuntu Sistemas Informáticos</nombre>
+                    <sistema_operativo>Ubuntu 22.04</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.1.1</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:07</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.1.2</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:08</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Windows Sistemas Informáticos</nombre>
+                    <sistema_operativo>Windows 10</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>Controlador Genérico</tipo>
+                            <direccion_ip>10.0.1.3</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:09</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Solo Anfitrión</tipo>
+                            <direccion_ip>10.0.1.4</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:0A</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Debian Sistemas Informáticos</nombre>
+                    <sistema_operativo>Debian 11</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.1.5</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:0B</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.1.6</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:0C</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+
+        <nodo>
+            <nombre>Nodo Prácticas</nombre>
+            <direccion_ip>172.16.0.3</direccion_ip>
+            <maquinas_virtuales>
+                <maquina_virtual>
+                    <nombre>Fedora Practicar</nombre>
+                    <sistema_operativo>Fedora 35</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.2.1</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:0D</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.2.2</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:0E</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Windows Server Probar</nombre>
+                    <sistema_operativo>Windows Server 2022</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>Controlador Genérico</tipo>
+                            <direccion_ip>10.0.2.3</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:0F</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Solo Anfitrión</tipo>
+                            <direccion_ip>10.0.2.4</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:10</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Ubuntu Antiguo Probar</nombre>
+                    <sistema_operativo>Ubuntu 18.04</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.2.5</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:11</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.2.6</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:12</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+
+        <nodo>
+            <nombre>Nodo Base de Datos</nombre>
+            <direccion_ip>172.16.0.4</direccion_ip>
+            <maquinas_virtuales>
+
+                <maquina_virtual>
+                    <nombre>CentOS Base de Datos</nombre>
+                    <sistema_operativo>CentOS 7</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.3.1</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:13</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Controlador Genérico</tipo>
+                            <direccion_ip>10.0.3.2</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:14</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Windows Base de Datos</nombre>
+                    <sistema_operativo>Windows 11</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.3.3</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:15</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.3.4</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:16</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Ubuntu Base de Datos</nombre>
+                    <sistema_operativo>Ubuntu 20.04</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.3.5</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:17</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.3.6</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:18</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+
+        <nodo>
+            <nombre>Nodo Programación</nombre>
+            <direccion_ip>172.16.0.5</direccion_ip>
+            <maquinas_virtuales>
+
+                <maquina_virtual>
+                    <nombre>Nuevo Debian Probar</nombre>
+                    <sistema_operativo>Debian 12</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.4.1</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:19</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.4.2</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:1A</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Windows Server Programación</nombre>
+                    <sistema_operativo>Windows Server 2016</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.4.3</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:1B</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Controlador Genérico</tipo>
+                            <direccion_ip>10.0.4.4</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:1C</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+                <maquina_virtual>
+                    <nombre>Ubuntu Programación</nombre>
+                    <sistema_operativo>Ubuntu 21.10</sistema_operativo>
+                    <interfaces_red>
+                        <interfaz_red>
+                            <tipo>NAT</tipo>
+                            <direccion_ip>10.0.4.5</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:1D</mac>
+                        </interfaz_red>
+                        <interfaz_red>
+                            <tipo>Adaptador Puente</tipo>
+                            <direccion_ip>10.0.4.6</direccion_ip>
+                            <mac>AA:BB:CC:DD:EE:1E</mac>
+                        </interfaz_red>
+                    </interfaces_red>
+                </maquina_virtual>
+
+            </maquinas_virtuales>
+        </nodo>
+
+    </nodos>
+</cluster>

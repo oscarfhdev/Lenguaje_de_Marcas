@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medios_transporte>
+    <transportes>
+        <transporte>
+            <tipo>Trenes Renfe</tipo>
+            <velocidad_maxima>300kmh</velocidad_maxima>
+            <superficie>Vías Ferroviarias</superficie>
+            <contaminacion_C02>20</contaminacion_C02>
+            <cantidad_pasajeros>200</cantidad_pasajeros>
+            <subtipos>
+                <subtipo>
+                    <tipo>Ferroviario Cercaías</tipo>
+                    <velocidad_máxima>160kmh</velocidad_máxima>
+                </subtipo>
+                <subtipo>
+                    <tipo>Ferroviario Media Distancia</tipo>
+                    <velocidad_máxima>180kmh</velocidad_máxima>
+                </subtipo>
+                <subtipo>
+                    <tipo>AVE</tipo>
+                    <velocidad_máxima>300kmh</velocidad_máxima>
+                    <contaminacion_C02>15</contaminacion_C02>
+                    <cantidad_pasajeros>150</cantidad_pasajeros>
+                </subtipo>
+            </subtipos>
+        </transporte>
+        <transporte>
+            <tipo>Autobuses</tipo>
+            <velocidad_maxima>110kmh</velocidad_maxima>
+            <superficie>Carretera</superficie>
+            <contaminacion_C02>46</contaminacion_C02>
+            <cantidad_pasajeros>48</cantidad_pasajeros>
+            <subtipos>
+                <subtipo>
+                    <tipo>Trolebus</tipo>
+                    <velocidad_máxima>50</velocidad_máxima>
+                    <contaminacion_C02>13</contaminacion_C02>
+                    <cantidad_pasajeros>60</cantidad_pasajeros>
+                    <superficie>Raíles</superficie>
+                </subtipo>
+            </subtipos>
+        </transporte>
+        <transporte>
+            <tipo>Taxis</tipo>
+            <velocidad_maxima>120kmh</velocidad_maxima>
+            <superficie>Carretera</superficie>
+            <contaminacion_C02>56</contaminacion_C02>
+            <cantidad_pasajeros>4</cantidad_pasajeros>
+        </transporte>
+    </transportes>
+
+    <conductores>
+        <conductor ambito="Trenes Renfe">
+            <DNI>12342342N</DNI>
+            <num_telefono>12345678</num_telefono>
+            <licencias>
+                <lincencia>AVE</lincencia>
+            </licencias>
+        </conductor>
+        <conductor ambito="Autobuses">
+            <DNI>13043444R</DNI>
+            <num_telefono>632781233</num_telefono>
+            <licencias>
+                <lincencia>Autobús</lincencia>
+            </licencias>
+            <matricula vehículo="Autobús">1168JFW</matricula>
+        </conductor>
+        <conductor ambito="Taxis">
+            <DNI>435345345H</DNI>
+            <num_telefono>61819685</num_telefono>
+            <licencias>
+                <lincencia>Taxi</lincencia>
+            </licencias>
+            <matricula>19881CED</matricula>
+        </conductor>
+    </conductores>
+</medios_transporte>

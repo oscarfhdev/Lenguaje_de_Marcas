@@ -1,0 +1,72 @@
+<?xml version= "1.0"?>
+
+<profesores>
+  <profesor nombre="Francisco Higera Manzanares">
+    <asignaturas>
+      <asignatura nombre="Lenguaje de marcas">
+        <alumnos>
+          <alumno>Javier Carrillo Ruiz</alumno>
+          <alumno>Adrian Raña Escote</alumno>
+          <alumno>Oscar Fernandez Hernandez</alumno>
+          <alumno>Samuel Reyes Martinez</alumno>
+          <alumno>Juan Francisco Bueno Requena</alumno>
+          <alumno>Alberto Jimenez Casado</alumno>
+          <alumno>Juan Caro Caro</alumno>
+          <alumno>Adrian Velazquez Martinez</alumno>
+          <alumno>Alejandro Martin Rodriguez</alumno>
+          <alumno>Maria Sanchez Bujalance</alumno>
+        </alumnos> 
+      </asignatura>
+      
+      <asignatura nombre="Base de Datos">
+        <alumnos>
+          <alumno>Javier Carrillo Ruiz</alumno>
+          <alumno>Adrian Raña Escote</alumno>
+          <alumno>Oscar Fernandez Hernandez</alumno>
+          <alumno>Samuel Reyes Martinez</alumno>
+          <alumno>Juan Francisco Bueno Requena</alumno>
+          <alumno>Alberto Jimenez Casado</alumno>
+          <alumno>Juan Caro Caro</alumno>
+          <alumno>Adrian Velazquez Martinez</alumno>
+          <alumno>Alejandro Martin Rodriguez</alumno>
+          <alumno>Maria Sanchez Bujalance</alumno>
+        </alumnos>
+      </asignatura>
+    </asignaturas>
+  </profesor>
+
+
+  <profesor nombre="Mercedes Moniz Cabrera">
+    <asignaturas>
+      <asignatura nombre="Sostenibilidad">
+        <alumnos>
+          <alumno>Martin Peña Padron</alumno>
+          <alumno>Mateu Elizondo Villalobos</alumno>
+          <alumno>Gines Vasquez Fernandez</alumno>
+          <alumno>Rubert Garcia Fernandez</alumno>
+          <alumno>Angel Fredrick Gonzalez</alumno>
+          <alumno>Napoleon García Lopez</alumno>
+          <alumno>Camilo Velasquez Velasquez</alumno>
+          <alumno>Liberto Sanz Asturias</alumno>
+          <alumno>Imanol Huerta Mendez</alumno>
+          <alumno>Silvestre Lopez Marroquin</alumno>
+        </alumnos> 
+      </asignatura>
+
+      <asignatura nombre="Programacion">
+        <alumnos>
+          <alumno>Martin Peña Padron</alumno>
+          <alumno>Mateu Elizondo Villalobos</alumno>
+          <alumno>Gines Vasquez Fernandez</alumno>
+          <alumno>Rubert Garcia Fernandez</alumno>
+          <alumno>Angel Fredrick Gonzalez</alumno>
+          <alumno>Napoleon García Lopez</alumno>
+          <alumno>Camilo Velasquez Velasquez</alumno>
+          <alumno>Liberto Sanz Asturias</alumno>
+          <alumno>Imanol Huerta Mendez</alumno>
+          <alumno>Silvestre Lopez Marroquin</alumno>
+        </alumnos> 
+      </asignatura>
+    </asignaturas>    
+  </profesor>
+</profesores>

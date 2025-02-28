@@ -1,0 +1,206 @@
+<horario_clase>
+    <curso>1º DAM</curso>
+    <dias>
+        <dia nombre="Lunes">
+            <horas>
+                <hora tramo="08:30-09:30">
+                    <asignatura>Bases de Datos</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="09:30-10:30">
+                    <asignatura>Bases de Datos</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="10:30-11:30">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="11:30-12:00" tipo="recreo">
+                    <asignatura>Recreo</asignatura>
+                </hora>
+
+                <hora tramo="12:00-13:00">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="13:00-14:00">
+                    <asignatura>Sistemas Informáticos</asignatura>
+                    <profesor>Jose Leon Arevalo</profesor>
+                </hora>
+
+                <hora tramo="14:00-15:00">
+                    <asignatura>Sistemas Informáticos</asignatura>
+                    <profesor>Jose Leon Arevalo</profesor>
+                </hora>
+
+            </horas>
+        </dia>
+
+
+
+        <dia nombre="Martes">
+            <horas>
+                <hora tramo="08:30-09:30">
+                    <asignatura>Bases de Datos</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="09:30-10:30">
+                    <asignatura>Bases de Datos</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="10:30-11:30">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="11:30-12:00" tipo="recreo">
+                    <asignatura>Recreo</asignatura>
+                </hora>
+
+                <hora tramo="12:00-13:00">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="13:00-14:00">
+                    <asignatura>Sistemas Informáticos</asignatura>
+                    <profesor>Jose Leon Arevalo</profesor>
+                </hora>
+
+                <hora tramo="14:00-15:00">
+                    <asignatura>Sistemas Informáticos</asignatura>
+                    <profesor>Jose Leon Arevalo</profesor>
+                </hora>
+
+            </horas>    
+        </dia>
+
+
+
+        <dia nombre="Miércoles">
+            <horas>
+                <hora tramo="08:30-09:30">
+                    <asignatura>Entorno de Desarrollo</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="09:30-10:30">
+                    <asignatura>Entorno de Desarrollo</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="10:30-11:30">
+                    <asignatura>Lenguaje de Marcas</asignatura>
+                    <profesor>Miguel Morales Carmona</profesor>
+                </hora>
+
+                <hora tramo="11:30-12:00" tipo="recreo">
+                    <asignatura>Recreo</asignatura>
+                </hora>
+
+                <hora tramo="12:00-13:00">
+                    <asignatura>Lenguaje de Marcas</asignatura>
+                    <profesor>Miguel Morales Carmona</profesor>
+                </hora>
+
+                <hora tramo="13:00-14:00">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="14:00-15:00">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+            </horas>
+        </dia>
+
+
+
+        <dia nombre="Jueves">
+            <horas>
+                <hora tramo="08:30-09:30">
+                    <asignatura>Itinerario Personal</asignatura>
+                    <profesor>María Fernández Mata</profesor>
+                </hora>
+
+                <hora tramo="09:30-10:30">
+                    <asignatura>Itinerario Personal</asignatura>
+                    <profesor>María Fernández Mata</profesor>
+                </hora>
+
+                <hora tramo="10:30-11:30">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="11:30-12:00" tipo="recreo">
+                    <asignatura>Recreo</asignatura>
+                </hora>
+
+                <hora tramo="12:00-13:00">
+                    <asignatura>Programación</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="13:00-14:00">
+                    <asignatura>Sostenibilidad Aplicada</asignatura>
+                    <profesor>Alejandro Torres Huelva</profesor>
+                </hora>
+
+                <hora tramo="14:00-15:00">
+                    <asignatura>Lenguaje de Marcas</asignatura>
+                    <profesor>Miguel Morales Carmona</profesor>
+                </hora>
+            </horas>
+        </dia>
+
+
+
+        <dia nombre="Viernes">
+            <horas>
+                <hora tramo="08:30-09:30">
+                    <asignatura>Itinerario Personal</asignatura>
+                    <profesor>María Fernández Mata</profesor>
+                </hora>
+
+                <hora tramo="09:30-10:30">
+                    <asignatura>Sistemas Informáticos</asignatura>
+                    <profesor>Jose Leon Arevalo</profesor>
+                </hora>
+
+                <hora tramo="10:30-11:30">
+                    <asignatura>Bases de Datos</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="11:30-12:00" tipo="recreo">
+                    <asignatura>Recreo</asignatura>
+                </hora>
+
+                <hora tramo="12:00-13:00">
+                    <asignatura>Bases de Datos</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="13:00-14:00">
+                    <asignatura>Entorno de Desarrollo</asignatura>
+                    <profesor>Teófilo Rojas Mata</profesor>
+                </hora>
+
+                <hora tramo="14:00-15:00">
+                    <asignatura>Digitalización Aplicada</asignatura>
+                    <profesor>Miguel Morales Carmona</profesor>
+                </hora>
+            </horas>
+        </dia>
+
+
+    </dias>
+</horario_clase>

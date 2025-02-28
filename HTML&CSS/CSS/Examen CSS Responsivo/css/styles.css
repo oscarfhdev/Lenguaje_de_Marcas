@@ -1,0 +1,186 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 95vw;
+    height: 100vh;
+    margin: 2vw;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vw;
+    margin: 0   ;
+
+}
+
+header img{
+    width: 10%;
+    height: 10%;
+}
+
+header i{
+    display: block;
+    padding: 3vw;
+}
+header nav{
+    display: none;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    background-color: #505050;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 6vw;
+}
+
+main h1{
+    margin-top: 0;
+}
+
+main section form button{
+    background-color: forestgreen;
+    border: none;
+    padding: 5vw;
+    margin: 2vw;
+    border-radius: 2vw;
+    color: white;
+}
+.ocult{
+    display: none
+}
+
+#section1{
+    text-align: center;
+}
+
+#section1 p a{
+    text-decoration: none;
+    color: blue;
+    padding: 3vw;
+    border: 1px solid blue;
+    border-radius: 2vw;
+}
+
+#section1 p{
+    margin-bottom: 5vh;
+}
+
+#section2{
+    text-align: center;
+}
+
+#section2 img{
+    width: 50%;
+    height: 80%;
+}
+
+@media (min-width: 576px) {
+    .ocult{
+        display: block;
+        text-align: left;
+
+    }
+
+    main section form {
+        background-color: white;
+        padding: 3vw;
+        color: black;
+    }
+
+    main section form label{
+        font-weight: bold;
+    }
+
+    main section form input{
+        width: 100%;
+        height: 3vh;
+    }
+    main{
+        padding: 4vw;
+    }
+
+    main section form button{
+        background-color: forestgreen;
+        width: 100%;
+        border: none;
+        padding: 2vw;
+        margin: 2vw 0;
+        border-radius: 2vw;
+        color: white;
+    }
+}
+
+@media (min-width: 992px) {
+    header nav{
+        display: block;
+        flex-direction: row;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+        font-size: 1.2rem;
+        padding: 3vw;
+    };
+    header i{
+        visibility: hidden;
+    }
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #section1submain{
+        padding: 3vw;
+        width: 70%;
+    }
+
+    main section form button{
+        background-color: forestgreen;
+        width: 100%;
+        border: none;
+        padding: 1vw;
+        margin: 2vw 0;
+        border-radius: 2vw;
+        color: white;
+    }
+    #section1 p a{
+        text-decoration: none;
+        color: blue;
+        padding: 1vw;
+        border: 1px solid blue;
+        border-radius: 1vw;
+    }
+
+    #section2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas:"img text"
+    }
+
+    #div_img{
+        grid-area: img;
+    }
+    #div_img img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+}

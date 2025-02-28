@@ -1,0 +1,89 @@
+<ordenador>
+    <nombre_equipo>PC_Oscar</nombre_equipo>
+    <componentes>
+        <componente tipo="Caja">
+            <fabricante>Cougar</fabricante>
+            <modelo>MX410 Mesh-G RGB Cristal Templado USB 3.1</modelo>
+            <precio>80€</precio>
+            <caracteristicas>
+                <caracteristica>Diseño con panel lateral de cristal templado</caracteristica>
+                <caracteristica>Iluminación RGB</caracteristica>
+                <caracteristica>Compatibilidad con refrigeración líquida</caracteristica>
+                <caracteristica>Espacio para múltiples ventiladores</caracteristica>
+            </caracteristicas>
+        </componente>
+
+        <componente tipo="Fuente de Alimentación">
+            <fabricante>Corsair</fabricante>
+            <modelo>CV Series CV650</modelo>
+            <precio>70€</precio>
+            <caracteristicas>
+                <caracteristica>650W</caracteristica>
+                <caracteristica>80 Plus Bronze V2</caracteristica>
+                <caracteristica>Conectores para múltiples configuraciones</caracteristica>
+                <caracteristica>Ventilador de 120 mm</caracteristica>
+            </caracteristicas>
+        </componente>
+        
+        <componente tipo="CPU">
+            <fabricante>Intel</fabricante>
+            <modelo>Core i5-12400F</modelo>
+            <precio>220€</precio>
+            <caracteristicas>
+                <caracteristica>6 núcleos</caracteristica>
+                <caracteristica>12 hilos</caracteristica>
+                <caracteristica>2.5 GHz</caracteristica>
+                <caracteristica>Socket LGA 1700</caracteristica>
+                <caracteristica>Gráficos integrados desactivados</caracteristica>
+            </caracteristicas>
+        </componente>
+
+        <componente tipo="Placa Base">
+            <fabricante>Gigabyte</fabricante>
+            <modelo>B760M DS3H DDR4</modelo>
+            <precio>130€</precio>
+            <caracteristicas>
+                <caracteristica>Socket LGA 1700</caracteristica>
+                <caracteristica>Micro ATX</caracteristica>
+                <caracteristica>4 x DIMM DDR4</caracteristica>
+                <caracteristica>Soporte para PCIe 4.0</caracteristica>
+                <caracteristica>Conectividad HDMI</caracteristica>
+            </caracteristicas>
+        </componente>
+
+        <componente tipo="Almacenamiento">
+            <fabricante>WD</fabricante>
+            <modelo>Blue SN570 SSD 1TB</modelo>
+            <precio>100€</precio>
+            <caracteristicas>
+                <caracteristica>SSD M.2 NVMe</caracteristica>
+                <caracteristica>Lectura: 3500 MB/s</caracteristica>
+                <caracteristica>Escritura: 3000 MB/s</caracteristica>
+            </caracteristicas>
+        </componente>
+
+        <componente tipo="RAM">
+            <fabricante>Kingston</fabricante>
+            <modelo>FURY Beast DDR4 3200 MHz 16GB (2x8GB)</modelo>
+            <precio>75€</precio>
+            <caracteristicas>
+                <caracteristica>DDR4</caracteristica>
+                <caracteristica>3200 MHz</caracteristica>
+                <caracteristica>CL16</caracteristica>
+                <caracteristica>2 módulos de 8GB</caracteristica>
+            </caracteristicas>
+        </componente>
+
+        <componente tipo="GPU">
+            <fabricante>Gigabyte</fabricante>
+            <modelo>GeForce RTX 4060 WINDFORCE OC 8GB</modelo>
+            <precio>400€</precio>
+            <caracteristicas>
+                <caracteristica>8 GB GDDR6</caracteristica>
+                <caracteristica>DLSS 3</caracteristica>
+                <caracteristica>Ray Tracing</caracteristica>
+                <caracteristica>PCI Express 4.0</caracteristica>
+            </caracteristicas>
+        </componente>
+    </componentes>
+</ordenador>

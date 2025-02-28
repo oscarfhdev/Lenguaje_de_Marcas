@@ -1,0 +1,144 @@
+body{
+    width: 95vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    grid-template-areas: "header"
+                            "header2"
+                            "content"
+                            "footer";
+    margin: 2vw 2vw 2vw 2vw;
+
+}
+
+#header{
+    grid-area: header;
+    background-color: black;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    padding: 1vw;
+}
+
+.right{
+    text-align: right;
+    width: 100%;
+}
+
+#header2{
+    grid-area: header2;
+    display: flex;
+    flex-direction: row;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    column-gap: 2vw;
+}
+
+#contenedor\ grande{
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    gap: 5vw;
+    padding: 1vw;
+    font-weight: bold;
+
+}
+
+#content1{
+    background-color: lightgray;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+#content3{
+    background-color: lightgray;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+#content3 img{
+    padding-bottom: 1vw;
+}
+
+#imagen_ies img {
+    width: 80%;
+    height: 100%;
+    padding-bottom: 2vw;
+    padding-left: 5vw;
+}
+
+h4{
+    margin: 0;
+}
+
+#content4 {
+    background-color: lightgray;
+    border: 1px solid darkolivegreen;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+#content4 img{
+    width: 10%;
+    height: 15%;
+    padding: 8vh 1vh 0 0;
+}
+
+#abajo_grande{
+
+}
+
+ul,li{
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+#background{
+    background-color: lightgray;
+    margin-bottom: 1vw;
+    border-bottom: 2px solid darkolivegreen;
+}
+
+ul{
+    color: darkgreen;
+}
+
+li{
+    padding-bottom: 1vh;
+}
+
+span{
+    color: black;
+}
+
+#footer{
+    background-color: #212121;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#wrapper:after {
+    content: "";
+    display: block;
+    height: 1vw;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}

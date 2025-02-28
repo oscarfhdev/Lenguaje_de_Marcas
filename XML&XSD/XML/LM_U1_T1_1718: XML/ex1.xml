@@ -1,0 +1,144 @@
+<?xml version= "1.0"?>
+<cine>
+    <cartelera>
+        <peliculas_proyectadas>
+
+
+        <pelicula nombre="Inception (Origen)">
+
+            <director>Christopher Nolan</director>
+
+            <protagonistas>
+                <protagonista>Leonardo DiCaprio (Dom Cobb)</protagonista>
+                <protagonista>Joseph Gordon-Levitt (Arthur)</protagonista>
+                <protagonista>Ellen Page (Ariadne)</protagonista>
+                <protagonista>Tom Hardy (Eames)</protagonista>
+                <protagonista>Ken Watanabe (Saito)</protagonista>
+            </protagonistas>
+
+            <resumen>Dom Cobb es un ladrón experto en el arte de la extracción, que consiste en robar secretos del subconsciente durante el sueño. Es contratado para realizar un "inception" (inserción de una idea en la mente de alguien) en lugar de un robo. Para llevar a cabo esta tarea, Cobb y su equipo se sumergen en un complejo mundo de sueños, donde enfrentan sus propios demonios y las consecuencias de sus acciones.</resumen>
+
+            <salas>
+                <sala>Sala 1</sala>
+                <sala>Sala 2</sala>
+                <sala>Sala 4</sala>
+            </salas>
+
+            <sesiones>
+                <sesion>08:00 - 10:00</sesion>
+                <sesion>16:30 - 18:30</sesion>
+                <sesion>22:30 - 00:30</sesion>
+            </sesiones>
+
+        </pelicula>
+
+
+        <pelicula nombre="The Matrix">
+
+            <director>Lana Wachowski</director>
+
+            <protagonistas>
+                <protagonista>Keanu Reeves (Neo)</protagonista>
+                <protagonista>Laurence Fishburne (Morpheus)</protagonista>
+                <protagonista>Carrie-Anne Moss (Trinity)</protagonista>
+                <protagonista>Hugo Weaving (Agente Smith)</protagonista>
+                <protagonista>Gloria Foster (Oráculo)</protagonista>
+            </protagonistas>
+
+            <resumen>En un futuro, el programador de computadoras Thomas Anderson descubre que la realidad que conoce es una simulación creada por máquinas inteligentes. Bajo la guía de Morpheus, un líder rebelde, Anderson se convierte en Neo y se une a la lucha contra las máquinas para liberar a la humanidad.</resumen>
+
+            <salas>
+                <sala>Sala 3</sala>
+                <sala>Sala 5</sala>
+                <sala>Sala 6</sala>
+            </salas>
+
+            <sesiones>
+                <sesion>09:00 - 11:00</sesion>
+                <sesion>14:00 - 16:00</sesion>
+                <sesion>19:00 - 21:00</sesion>
+            </sesiones>
+
+        </pelicula>
+
+        <pelicula nombre="Titanic">
+
+            <director>James Cameron</director>
+
+            <protagonistas>
+                <protagonista>Leonardo DiCaprio (Jack Dawson)</protagonista>
+                <protagonista>Kate Winslet (Rose DeWitt Bukater)</protagonista>
+            </protagonistas>
+
+            <resumen>En el transatlántico Titanic, una joven aristócrata y un artista de clase baja se enamoran, enfrentándose a la adversidad social y la tragedia de un desastre en el mar.</resumen>
+
+            <salas>
+                <sala>Sala 7</sala>
+                <sala>Sala 8</sala>
+                <sala>Sala 9</sala>
+            </salas>
+
+            <sesiones>
+                <sesion>10:00 - 13:30</sesion>
+                <sesion>15:00 - 18:30</sesion>
+                <sesion>19:00 - 22:30</sesion>
+            </sesiones>
+
+        </pelicula>
+
+
+        <pelicula nombre="Avatar">
+
+            <director>James Cameron</director>
+
+            <protagonistas>
+                <protagonista>Sam Worthington (Jake Sully)</protagonista>
+                <protagonista>Zoe Saldana (Neytiri)</protagonista>
+            </protagonistas>
+
+            <resumen>En un mundo alienígena llamado Pandora, un ex-marine se infiltra en la cultura de los navi para ayudar a los humanos a controlar los recursos del planeta, pero termina enamorándose de una navi y cuestionando su lealtad.</resumen>
+
+            <salas>
+                <sala>Sala 10</sala>
+                <sala>Sala 11</sala>
+                <sala>Sala 12</sala>
+            </salas>
+
+            <sesiones>
+                <sesion>09:00 - 12:00</sesion>
+                <sesion>13:30 - 16:30</sesion>
+                <sesion>18:00 - 21:00</sesion>
+            </sesiones>
+
+        </pelicula>
+
+
+        <pelicula nombre="El Padrino">
+
+            <director>Francis Ford Coppola</director>
+
+            <protagonistas>
+                <protagonista>Marlon Brando (Vito Corleone)</protagonista>
+                <protagonista>Al Pacino (Michael Corleone)</protagonista>
+            </protagonistas>
+
+            <resumen>La historia de la familia Corleone, una de las más poderosas familias de la mafia en Nueva York, centrada en la transición de poder y la lealtad familiar a través del violento mundo del crimen organizado.</resumen>
+
+            <salas>
+                <sala>Sala 1</sala>
+                <sala>Sala 3</sala>
+                <sala>Sala 5</sala>
+            </salas>
+
+            <sesiones>
+                <sesion>13:00 - 16:00</sesion>
+                <sesion>17:00 - 20:00</sesion>
+                <sesion>21:30 - 00:30</sesion>
+            </sesiones>
+
+        </pelicula>
+
+
+        </peliculas_proyectadas>
+    </cartelera>
+</cine>

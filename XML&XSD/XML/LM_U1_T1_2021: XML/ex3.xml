@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <nombre>Oscarland SA</nombre>
+
+    <edificios>
+        <edificio id="Edificio Central">
+            <direccion>Polígono 8 de Rústica, 129, 28919 Leganés, Madrid</direccion>
+            <numero_plantas>3</numero_plantas>
+
+            <plantas>
+
+                <planta>
+                    <numero>Planta Nº 1</numero>
+                    <ocupacion>Soporte</ocupacion>
+                    <numero_salas>4 salas</numero_salas>
+                    <empleados>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Juan Pérez</nombre>
+                                <edad>35</edad>
+                                <correo_electronico>juan.perez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Jefe de Soporte</puesto>
+                            <extension_telefonica>101</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>María López</nombre>
+                                <edad>28</edad>
+                                <correo_electronico>maria.lopez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Especialista de Soporte</puesto>
+                            <extension_telefonica>102</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Carlos García</nombre>
+                                <edad>30</edad>
+                                <correo_electronico>carlos.garcia@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Analista de Soporte</puesto>
+                            <extension_telefonica>103</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Ana Martínez</nombre>
+                                <edad>25</edad>
+                                <correo_electronico>ana.martinez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Asistente de Soporte</puesto>
+                            <extension_telefonica>104</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Luis Rodríguez</nombre>
+                                <edad>27</edad>
+                                <correo_electronico>luis.rodriguez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Técnico de Soporte</puesto>
+                            <extension_telefonica>105</extension_telefonica>
+                        </empleado>
+
+                    </empleados>
+                </planta>
+
+
+                <planta>
+                    <numero>Planta Nº 2</numero>
+                    <ocupacion>Contabilidad</ocupacion>
+                    <numero_salas>4 salas</numero_salas>
+                    <empleados>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Laura Fernández</nombre>
+                                <edad>32</edad>
+                                <correo_electronico>laura.fernandez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Gerente de Contabilidad</puesto>
+                            <extension_telefonica>201</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Pedro Sánchez</nombre>
+                                <edad>29</edad>
+                                <correo_electronico>pedro.sanchez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Contador Senior</puesto>
+                            <extension_telefonica>202</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Isabel Gómez</nombre>
+                                <edad>26</edad>
+                                <correo_electronico>isabel.gomez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Analista Financiero</puesto>
+                            <extension_telefonica>203</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Diego Ruiz</nombre>
+                                <edad>31</edad>
+                                <correo_electronico>diego.ruiz@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Asistente Contable</puesto>
+                            <extension_telefonica>204</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Elena Torres</nombre>
+                                <edad>24</edad>
+                                <correo_electronico>elena.torres@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Auxiliar Contable</puesto>
+                            <extension_telefonica>205</extension_telefonica>
+                        </empleado>
+
+                    </empleados>
+                </planta>
+
+
+                <planta>
+                    <numero>Planta Nº 3</numero>
+                    <ocupacion>Dirección</ocupacion>
+                    <numero_salas>2 salas</numero_salas>
+                    <empleados>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Óscar Fernández</nombre>
+                                <edad>18</edad>
+                                <correo_electronico>oscar.fernandez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Director General</puesto>
+                            <extension_telefonica>301</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Patricia Jiménez</nombre>
+                                <edad>38</edad>
+                                <correo_electronico>patricia.jimenez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Subdirectora</puesto>
+                            <extension_telefonica>302</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Fernando Díaz</nombre>
+                                <edad>36</edad>
+                                <correo_electronico>fernando.diaz@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Gerente de Operaciones</puesto>
+                            <extension_telefonica>303</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Sofía Moreno</nombre>
+                                <edad>34</edad>
+                                <correo_electronico>sofia.moreno@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Gerente de Recursos Humanos</puesto>
+                            <extension_telefonica>304</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Ricardo Vega</nombre>
+                                <edad>33</edad>
+                                <correo_electronico>ricardo.vega@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Gerente de Marketing</puesto>
+                            <extension_telefonica>305</extension_telefonica>
+                        </empleado>
+
+                    </empleados>
+                </planta>
+
+            </plantas>
+        </edificio>
+
+
+
+        <edificio id="Edificio Secundario Madrid">
+            <direccion>C. de Alcalá, 45, Centro, 28014 Madrid</direccion>
+            <numero_plantas>3</numero_plantas>
+
+            <plantas>
+
+                <planta>
+                    <numero>Planta Nº 1</numero>
+                    <ocupacion>Ventas</ocupacion>
+                    <numero_salas>5 salas</numero_salas>
+                    <empleados>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Andrés Blanco</nombre>
+                                <edad>29</edad>
+                                <correo_electronico>andres.blanco@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Jefe de Ventas</puesto>
+                            <extension_telefonica>106</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Carla Romero</nombre>
+                                <edad>27</edad>
+                                <correo_electronico>carla.romero@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Ejecutiva de Ventas</puesto>
+                            <extension_telefonica>107</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Javier Morales</nombre>
+                                <edad>31</edad>
+                                <correo_electronico>javier.morales@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Asistente de Ventas</puesto>
+                            <extension_telefonica>108</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Lucía Navarro</nombre>
+                                <edad>25</edad>
+                                <correo_electronico>lucia.navarro@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Representante de Ventas</puesto>
+                            <extension_telefonica>109</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Tomás Castillo</nombre>
+                                <edad>28</edad>
+                                <correo_electronico>tomas.castillo@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Coordinador de Ventas</puesto>
+                            <extension_telefonica>110</extension_telefonica>
+                        </empleado>
+
+                    </empleados>
+                </planta>
+
+
+                <planta>
+                    <numero>Planta Nº 2</numero>
+                    <ocupacion>Recursos Humanos</ocupacion>
+                    <numero_salas>5 salas</numero_salas>
+                    <empleados>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Beatriz Castro</nombre>
+                                <edad>30</edad>
+                                <correo_electronico>beatriz.castro@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Jefa de RRHH</puesto>
+                            <extension_telefonica>211</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Ignacio Ortega</nombre>
+                                <edad>26</edad>
+                                <correo_electronico>ignacio.ortega@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Especialista en Reclutamiento</puesto>
+                            <extension_telefonica>212</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Marta Ruiz</nombre>
+                                <edad>29</edad>
+                                <correo_electronico>marta.ruiz@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Analista de Recursos Humanos</puesto>
+                            <extension_telefonica>213</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Fernando Soto</nombre>
+                                <edad>34</edad>
+                                <correo_electronico>fernando.soto@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Coordinador de Formación</puesto>
+                            <extension_telefonica>214</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Silvia Molina</nombre>
+                                <edad>24</edad>
+                                <correo_electronico>silvia.molina@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Asistente de RRHH</puesto>
+                            <extension_telefonica>215</extension_telefonica>
+                        </empleado>
+
+                    </empleados>
+                </planta>
+
+
+                <planta>
+                    <numero>Planta Nº 3</numero>
+                    <ocupacion>Desarrollo</ocupacion>
+                    <numero_salas>3 salas</numero_salas>
+                    <empleados>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Antonio García</nombre>
+                                <edad>33</edad>
+                                <correo_electronico>antonio.garcia@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Director de Desarrollo</puesto>
+                            <extension_telefonica>301</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Paula Torres</nombre>
+                                <edad>28</edad>
+                                <correo_electronico>paula.torres@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Ingeniera de Software</puesto>
+                            <extension_telefonica>302</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Daniela Vega</nombre>
+                                <edad>26</edad>
+                                <correo_electronico>daniela.vega@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Desarrolladora Frontend</puesto>
+                            <extension_telefonica>303</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Ricardo Herrera</nombre>
+                                <edad>30</edad>
+                                <correo_electronico>ricardo.herrera@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Desarrollador Backend</puesto>
+                            <extension_telefonica>304</extension_telefonica>
+                        </empleado>
+
+                        <empleado>
+                            <datos_personales>
+                                <nombre>Valeria López</nombre>
+                                <edad>27</edad>
+                                <correo_electronico>valeria.lopez@oscarland.com</correo_electronico>
+                            </datos_personales>
+                            <puesto>Ingeniera de QA</puesto>
+                            <extension_telefonica>305</extension_telefonica>
+                        </empleado>
+
+                    </empleados>
+                </planta>
+
+            </plantas>
+        </edificio>
+
+
+
+        <edificio id="Edificio Secundario Barcelona">
+    <direccion>Calle de Balmes, 150, 08008 Barcelona, Cataluña</direccion>
+    <numero_plantas>3</numero_plantas>
+
+    <plantas>
+
+        <planta>
+            <numero>Planta Nº 1</numero>
+            <ocupacion>Marketing</ocupacion>
+            <numero_salas>5 salas</numero_salas>
+            <empleados>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Ana María Torres</nombre>
+                        <edad>30</edad>
+                        <correo_electronico>ana.torres@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Gerente de Marketing</puesto>
+                    <extension_telefonica>311</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>José Luis Moreno</nombre>
+                        <edad>28</edad>
+                        <correo_electronico>jose.moreno@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Ejecutivo de Ventas</puesto>
+                    <extension_telefonica>312</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Lucía Pérez</nombre>
+                        <edad>27</edad>
+                        <correo_electronico>lucia.perez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Asistente de Marketing</puesto>
+                    <extension_telefonica>313</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Manuel Sánchez</nombre>
+                        <edad>32</edad>
+                        <correo_electronico>manuel.sanchez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Analista de Mercado</puesto>
+                    <extension_telefonica>314</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Carmen Rodríguez</nombre>
+                        <edad>29</edad>
+                        <correo_electronico>carmen.rodriguez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Coordinadora de Eventos</puesto>
+                    <extension_telefonica>315</extension_telefonica>
+                </empleado>
+
+            </empleados>
+        </planta>
+
+        <planta>
+            <numero>Planta Nº 2</numero>
+            <ocupacion>IT</ocupacion>
+            <numero_salas>5 salas</numero_salas>
+            <empleados>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>María González</nombre>
+                        <edad>34</edad>
+                        <correo_electronico>maria.gonzalez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Jefa de IT</puesto>
+                    <extension_telefonica>321</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>David Fernández</nombre>
+                        <edad>29</edad>
+                        <correo_electronico>david.fernandez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Administrador de Sistemas</puesto>
+                    <extension_telefonica>322</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Laura Martínez</nombre>
+                        <edad>26</edad>
+                        <correo_electronico>laura.martinez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Desarrolladora de Software</puesto>
+                    <extension_telefonica>323</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Fernando Ruiz</nombre>
+                        <edad>31</edad>
+                        <correo_electronico>fernando.ruiz@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Soporte Técnico</puesto>
+                    <extension_telefonica>324</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Silvia López</nombre>
+                        <edad>28</edad>
+                        <correo_electronico>silvia.lopez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Ingeniera de Redes</puesto>
+                    <extension_telefonica>325</extension_telefonica>
+                </empleado>
+
+            </empleados>
+        </planta>
+
+        <planta>
+            <numero>Planta Nº 3</numero>
+            <ocupacion>Investigación</ocupacion>
+            <numero_salas>3 salas</numero_salas>
+            <empleados>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Laura Sánchez</nombre>
+                        <edad>29</edad>
+                        <correo_electronico>laura.sanchez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Director de Investigación</puesto>
+                    <extension_telefonica>331</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Antonio López</nombre>
+                        <edad>27</edad>
+                        <correo_electronico>antonio.lopez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Ingeniero de Investigación</puesto>
+                    <extension_telefonica>332</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Paula Martínez</nombre>
+                        <edad>25</edad>
+                        <correo_electronico>paula.martinez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Investigadora de Datos</puesto>
+                    <extension_telefonica>333</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Ricardo Gómez</nombre>
+                        <edad>30</edad>
+                        <correo_electronico>ricardo.gomez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Analista de Investigación</puesto>
+                    <extension_telefonica>334</extension_telefonica>
+                </empleado>
+
+                <empleado>
+                    <datos_personales>
+                        <nombre>Valeria Hernández</nombre>
+                        <edad>28</edad>
+                        <correo_electronico>valeria.hernandez@oscarland.com</correo_electronico>
+                    </datos_personales>
+                    <puesto>Coordinadora de Proyectos</puesto>
+                    <extension_telefonica>335</extension_telefonica>
+                </empleado>
+
+            </empleados>
+        </planta>
+
+    </plantas>
+</edificio>
+
+</edificios>
+</empresa>

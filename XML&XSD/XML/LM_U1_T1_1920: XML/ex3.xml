@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+    <nombre>OsquitarCar</nombre>
+    <catalogo>
+        <marcas>
+
+            <marca>
+                <nombre>Toyota</nombre>
+                <pais_procedencia>Japón</pais_procedencia>
+                <coches>
+                    <coche>
+                        <matricula>ABC-123</matricula>
+                        <año_matriculacion>2020</año_matriculacion>
+                        <modelo>Corolla</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>1800</cilindrada>
+                    </coche>
+                    <coche>
+                        <matricula>DEF-456</matricula>
+                        <año_matriculacion>2021</año_matriculacion>
+                        <modelo>RAV4</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>2500</cilindrada>
+                    </coche>
+                </coches>
+            </marca>
+
+
+            <marca>
+                <nombre>Ford</nombre>
+                <pais_procedencia>Estados Unidos</pais_procedencia>
+                <coches>
+                    <coche>
+                        <matricula>GHI-789</matricula>
+                        <año_matriculacion>2019</año_matriculacion>
+                        <modelo>Focus</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>2000</cilindrada>
+                    </coche>
+                    <coche>
+                        <matricula>JKL-012</matricula>
+                        <año_matriculacion>2022</año_matriculacion>
+                        <modelo>Mustang</modelo>
+                        <numero_plazas>4</numero_plazas>
+                        <cilindrada>5000</cilindrada>
+                    </coche>
+                </coches>
+            </marca>
+
+
+            <marca>
+                <nombre>Volkswagen</nombre>
+                <pais_procedencia>Alemania</pais_procedencia>
+                <coches>
+                    <coche>
+                        <matricula>MNO-345</matricula>
+                        <año_matriculacion>2018</año_matriculacion>
+                        <modelo>Golf</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>1600</cilindrada>
+                    </coche>
+                    <coche>
+                        <matricula>PQR-678</matricula>
+                        <año_matriculacion>2020</año_matriculacion>
+                        <modelo>Tiguan</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>2000</cilindrada>
+                    </coche>
+                </coches>
+            </marca>
+
+
+            <marca>
+                <nombre>BMW</nombre>
+                <pais_procedencia>Alemania</pais_procedencia>
+                <coches>
+                    <coche>
+                        <matricula>STU-901</matricula>
+                        <año_matriculacion>2021</año_matriculacion>
+                        <modelo>Serie 3</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>2000</cilindrada>
+                    </coche>
+                    <coche>
+                        <matricula>VWX-234</matricula>
+                        <año_matriculacion>2022</año_matriculacion>
+                        <modelo>X5</modelo>
+                        <numero_plazas>7</numero_plazas>
+                        <cilindrada>3000</cilindrada>
+                    </coche>
+                </coches>
+            </marca>
+
+
+            <marca>
+                <nombre>Renault</nombre>
+                <pais_procedencia>Francia</pais_procedencia>
+                <coches>
+                    <coche>
+                        <matricula>YZA-567</matricula>
+                        <año_matriculacion>2017</año_matriculacion>
+                        <modelo>Clio</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>1400</cilindrada>
+                    </coche>
+                    <coche>
+                        <matricula>BCD-890</matricula>
+                        <año_matriculacion>2019</año_matriculacion>
+                        <modelo>Kangoo</modelo>
+                        <numero_plazas>5</numero_plazas>
+                        <cilindrada>1600</cilindrada>
+                    </coche>
+                </coches>
+            </marca>
+
+        </marcas>
+    </catalogo>
+</concesionario>

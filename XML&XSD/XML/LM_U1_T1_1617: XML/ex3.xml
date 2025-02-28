@@ -1,0 +1,55 @@
+<?xml version= "1.0"?>
+<libro_de_recetas nombre="Las recetas de la Abuela" Autor="Katherine Pierce">
+<receta nombre="Galletas con Pepitas de Chocolate">
+    <ingredientes>
+        <ingrediente nombre="Harina de trigo" cantidad="200 gramos"/>
+        <ingrediente nombre="Azúcar" cantidad="100 gramos"/>
+        <ingrediente nombre="Mantequilla" cantidad="150 gramos"/>
+        <ingrediente nombre="Huevo" cantidad="1"/>
+        <ingrediente nombre="Chocolate negro" cantidad="100 gramos"/>
+        <ingrediente nombre="Esencia de vainilla" cantidad="1 cucharadita"/>
+        <ingrediente nombre="Polvo de hornear" cantidad="1 cucharadita"/>
+        <ingrediente nombre="Sal" cantidad="1 pizca"/>
+    </ingredientes>
+
+    <pasos>
+        <paso numero="1">Precalienta el horno a 180°C y forra una bandeja de horno con papel vegetal.</paso>
+        <paso numero="2">En un bol grande, bate la mantequilla con el azúcar hasta obtener una mezcla cremosa.</paso>
+        <paso numero="3">Añade el huevo y la esencia de vainilla, y sigue batiendo hasta que estén bien incorporados.</paso>
+        <paso numero="4">Tamiza la harina, el polvo de hornear y la sal, e incorpóralos poco a poco a la mezcla anterior.</paso>
+        <paso numero="5">Pica el chocolate negro en trozos pequeños y mézclalo con la masa.</paso>
+        <paso numero="6">Con una cuchara, forma bolitas de masa y colócalas en la bandeja de horno, dejando espacio entre cada una.</paso>
+        <paso numero="7">Aplana ligeramente las bolitas con la parte trasera de una cuchara.</paso>
+        <paso numero="8">Hornea durante 12-15 minutos o hasta que los bordes estén ligeramente dorados.</paso>
+        <paso numero="9">Deja enfriar las galletas en la bandeja durante 5 minutos antes de transferirlas a una rejilla para que se enfríen completamente.</paso>
+        <paso numero="10">Comerselas y disfrutar!</paso>
+    </pasos>
+</receta>
+
+<receta nombre="Flan Casero">
+    <ingredientes>
+        <ingrediente nombre="Azúcar" cantidad="100 gramos"/>
+        <ingrediente nombre="Agua" cantidad="50 mililitros"/>
+        <ingrediente nombre="Leche" cantidad="500 mililitros"/>
+        <ingrediente nombre="Huevo" cantidad="4"/>
+        <ingrediente nombre="Extrracto de vainilla" cantidad="1 cucharadita"/>
+        <ingrediente nombre="Vainilla" cantidad="1"/>
+        <ingrediente nombre="Sal" cantidad="1 pizca"/>
+    </ingredientes>
+
+    <pasos>
+        <paso numero="1">En una sartén a fuego medio, combina el azúcar y el agua para preparar el caramelo. Cocina sin remover hasta que tome un color dorado.</paso>
+        <paso numero="2">Vierte el caramelo cuidadosamente en el molde para flan, inclinando el molde para que cubra uniformemente el fondo.</paso>
+        <paso numero="3">En una cacerola, calienta la leche junto con la vainilla hasta que esté a punto de hervir. Retira del fuego y deja enfriar ligeramente.</paso>
+        <paso numero="4">En un bol, bate los huevos con el extracto de vainilla y la pizca de sal hasta que estén bien mezclados.</paso>
+        <paso numero="5">Añade lentamente la leche caliente a la mezcla de huevos, batiendo constantemente para evitar que los huevos se cocinen.</paso>
+        <paso numero="6">Vierte la mezcla de leche y huevos sobre el caramelo en el molde.</paso>
+        <paso numero="7">Coloca el molde en una bandeja de horno profunda y llénala con agua caliente hasta llegar a la mitad del molde (baño maría).</paso>
+        <paso numero="8">Hornea en el horno precalentado a 180°C durante aproximadamente 45-50 minutos o hasta que el flan esté firme.</paso>
+        <paso numero="9">Retira el flan del horno y deja que se enfríe a temperatura ambiente. Luego, refrigéralo durante al menos 4 horas.</paso>
+        <paso numero="10">Desmolda el flan pasando un cuchillo por los bordes y volteándolo sobre un plato. Sirve frío.</paso>
+        <paso numero="11">Comerser y disfrutar!</paso>
+    </pasos>
+</receta>
+
+</libro_de_recetas>

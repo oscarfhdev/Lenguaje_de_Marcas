@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<canales_television xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="repaso.xsd">
+    <canal nombre="lasexta" numero="3">
+        <programacion>
+            <dia id="1">
+                <programacion>
+                    <programas>
+                        <programa>
+                            <nombre>Sálvame Naranja</nombre>
+                            <duracion>2h</duracion>
+                            <descripcion>Debate de la vida con Jorge Javier</descripcion>
+                            <clasificacion_edad>16</clasificacion_edad>
+                            <capitulo>36</capitulo>
+                        </programa>
+                        <programa>
+                            <nombre>1917</nombre>
+                            <duracion>2:29h</duracion>
+                            <descripcion>La guerra mas dificil</descripcion>
+                            <clasificacion_edad>18</clasificacion_edad>
+                        </programa>
+                    </programas>
+
+                    <anuncios>
+                        <anuncio>
+                            <marca>Coca-Cola</marca>
+                            <duracion>1,30min</duracion>
+                            <horario_emision>
+                                <hora>01:57</hora>
+                                <hora>19:20</hora>
+                            </horario_emision>
+                        </anuncio>
+
+                        <anuncio>
+                            <marca>Pepsi</marca>
+                            <duracion>30seg</duracion>
+                            <horario_emision>
+                                <hora>15:44</hora>
+                                <hora>09:20</hora>
+                            </horario_emision>
+                        </anuncio>
+                    </anuncios>
+                </programacion>
+            </dia>
+        </programacion>
+    </canal>
+
+</canales_television>

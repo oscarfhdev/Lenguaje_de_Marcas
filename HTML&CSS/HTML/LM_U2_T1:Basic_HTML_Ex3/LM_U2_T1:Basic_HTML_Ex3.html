@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Reservas</title>
+    <style>
+        .rojo{
+            color: red;
+        }
+
+        .gris{
+            background-color: gainsboro;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
+        }
+
+        .blanco{
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulario de Reserva de Salas</h1>
+    <form>
+
+        <div class="gris">
+            <br>
+            <label for="nombre">Tu nombre: <span class="rojo">*</span></label>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre" required style="margin-left: 150px;">
+            <br><br>
+        </div>
+
+
+        <div class="blanco">
+            <br>
+            <label for="correo_electronico">Tu correo electrónico: <span class="rojo">*</span></label>
+            <input type="email" id="correo_electronico" name="correo_electronico" placeholder="correo electrónico" required style="margin-left: 82px;"> 
+            <br><br>
+        </div>
+
+
+        <div class="gris">
+            <br>
+            <label for="departamento">Departamento: <span class="rojo">*</span></label>
+            <select id="departamento" name="departamento" required style="margin-left: 128px;">
+                <option value="ventas">Ventas</option>
+                <option value="marketing">Marketing</option>
+                <option value="recursos_humanos">Recursos Humanos</option>
+                <option value="finanzas">Finanzas</option>
+                <option value="tecnologia">Tecnología</option>
+                
+            </select>
+            <br> <br>
+        </div>
+
+            
+        <div class="blanco">
+            <br>
+            <input type="radio" id="tipoA" name="tipo_sala" value="A" required style="margin-left: 320px;">
+            <label for="tipoA">Tipo A</label><br>
+            
+            <label>Tipo de sala que desea reservar: <span class="rojo">*</span></label>
+            <input type="radio" id="tipoB" name="tipo_sala" value="B" required style="margin-left: 100px;">
+            <label for="tipoB">Tipo B</label><br>
+            
+            <input type="radio" id="tipoC" name="tipo_sala" value="C" required style="margin-left: 320px;">
+            <label for="tipoC">Tipo C</label>
+            <br><br>
+
+        </div>
+
+
+        <div class="gris">
+            <br>
+            <input type="checkbox" id="caballete_bolis" name="requisitos_extra" value="caballete_bolis" style="margin-left: 320px;">
+            <label for="caballete_bolis">Caballete y bolígrafos</label> <br>
+            <label>Requisitos extra:</label>
+            <input type="checkbox" id="television" name="requisitos_extra" value="television" style="margin-left: 208px;">
+            <label for="television">Televisión</label> <br>
+
+            <input type="checkbox" id="cafe_te_agua" name="requisitos_extra" value="cafe_te_agua" style="margin-left: 320px;">
+            <label for="cafe_te_agua">Café, té y agua</label> 
+            <br><br>
+
+        </div>
+
+
+        <div class="blanco">
+            <br>
+            <label for="fecha">Fecha de la reserva: <span class="rojo">*</span></label>
+            <input type="text" id="fecha" name="fecha" placeholder="31 / mm / aaaa" required style="margin-left: 90px;"> <!-- Podemos poner también el tipo date-->
+            <br><br>
+
+        </div>
+
+
+        <div class="gris">
+            <br>
+            <label for="hora">Hora de la reserva: <span class="rojo">*</span></label>
+            <input type="text" id="hora" name="hora" placeholder="--:--" required style="margin-left: 95px;"> <!-- Podemos poner también el tipo time-->
+            <br><br>
+
+        </div>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centro_comercial>
+    <tiendas>
+
+        <tienda>
+            <nombre>Adidas</nombre>
+            <parcelas>
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">180</superficie>
+            <encargado>
+                <nombre>Roberto</nombre>
+                <apellidos>Cadado Velázquez</apellidos>
+                <telefono_contacto>612 345 678</telefono_contacto>
+                <nss>12345678A</nss>
+            </encargado>
+        </tienda>
+
+        <tienda>
+            <nombre>Zara</nombre>
+            <parcelas>
+                <parcela>4</parcela>
+                <parcela>5</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">150</superficie>
+            <encargado>
+                <nombre>María</nombre>
+                <apellidos>Pérez López</apellidos>
+                <telefono_contacto>678 901 234</telefono_contacto>
+                <nss>87654321B</nss>
+            </encargado>
+        </tienda>
+
+        <tienda>
+            <nombre>Apple Store</nombre>
+            <parcelas>
+                <parcela>6</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">200</superficie>
+            <encargado>
+                <nombre>Carlos</nombre>
+                <apellidos>Gómez Martínez</apellidos>
+                <telefono_contacto>654 321 098</telefono_contacto>
+                <nss>11223344C</nss>
+            </encargado>
+        </tienda>
+
+        <tienda>
+            <nombre>HandM</nombre>
+            <parcelas>
+                <parcela>7</parcela>
+                <parcela>8</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">170</superficie>
+            <encargado>
+                <nombre>Laura</nombre>
+                <apellidos>Sánchez Ruiz</apellidos>
+                <telefono_contacto>789 012 345</telefono_contacto>
+                <nss>55667788D</nss>
+            </encargado>
+        </tienda>
+
+        <tienda>
+            <nombre>Sephora</nombre>
+            <parcelas>
+                <parcela>9</parcela>
+                <parcela>10</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">160</superficie>
+            <encargado>
+                <nombre>Javier</nombre>
+                <apellidos>Torres Díaz</apellidos>
+                <telefono_contacto>890 123 456</telefono_contacto>
+                <nss>99887766E</nss>
+            </encargado>
+        </tienda>
+
+
+        <tienda>
+            <nombre>Nike</nombre>
+            <parcelas>
+                <parcela>11</parcela>
+                <parcela>12</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">175</superficie>
+            <encargado>
+                <nombre>Ana</nombre>
+                <apellidos>Ramírez Fernández</apellidos>
+                <telefono_contacto>601 234 567</telefono_contacto>
+                <nss>22334455F</nss>
+            </encargado>
+        </tienda>
+
+
+        <tienda>
+            <nombre>Samsung</nombre>
+            <parcelas>
+                <parcela>13</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">190</superficie>
+            <encargado>
+                <nombre>Luis</nombre>
+                <apellidos>García Sánchez</apellidos>
+                <telefono_contacto>622 345 678</telefono_contacto>
+                <nss>33445566G</nss>
+            </encargado>
+        </tienda>
+
+
+        <tienda>
+            <nombre>Bershka</nombre>
+            <parcelas>
+                <parcela>14</parcela>
+                <parcela>15</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">160</superficie>
+            <encargado>
+                <nombre>Lucía</nombre>
+                <apellidos>Moreno López</apellidos>
+                <telefono_contacto>633 456 789</telefono_contacto>
+                <nss>44556677H</nss>
+            </encargado>
+        </tienda>
+
+
+        <tienda>
+            <nombre>PullandBear</nombre>
+            <parcelas>
+                <parcela>16</parcela>
+                <parcela>17</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">165</superficie>
+            <encargado>
+                <nombre>Pablo</nombre>
+                <apellidos>Hernández Torres</apellidos>
+                <telefono_contacto>644 567 890</telefono_contacto>
+                <nss>55667788I</nss>
+            </encargado>
+        </tienda>
+
+
+        <tienda>
+            <nombre>El Corte Inglés</nombre>
+            <parcelas>
+                <parcela>18</parcela>
+                <parcela>19</parcela>
+                <parcela>20</parcela>
+            </parcelas>
+            <superficie unidad="metros_cuadrados">300</superficie>
+            <encargado>
+                <nombre>Sofía</nombre>
+                <apellidos>Vargas Morales</apellidos>
+                <telefono_contacto>655 678 901</telefono_contacto>
+                <nss>66778899J</nss>
+            </encargado>
+        </tienda>
+
+    </tiendas>
+</centro_comercial>

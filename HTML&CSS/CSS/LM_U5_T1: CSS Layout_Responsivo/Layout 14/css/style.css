@@ -1,0 +1,281 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    height: 100vh;
+    width: 95vw;
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+#header ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 3vh 0;
+    font-size: 120%;
+}
+
+#header{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: bold;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#header h1{
+    padding: 3vw;
+    margin: 0;
+    font-family: "Droid Sans" ,sans-serif;
+}
+#fondo{
+    background-image: url('../images/background_ia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#header2{
+    margin: 5vh 0;
+}
+#header2 h1{
+    text-align: center;
+    color: deeppink;
+    margin: 0
+}
+
+#div_form form{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0;
+}
+
+#div_form form a{
+    text-decoration: none;
+    color: deeppink;
+}
+
+#div_form form h1{
+    margin: 0;
+}
+
+#div_form form input{
+    border: 1px solid grey;
+    padding: 2vw;
+    border-radius: 1vw;
+    margin: 1.5vw 0;
+}
+
+#submit{
+    background-color: deeppink;
+    color: white;
+    font-weight: bold;
+    padding: 4vw;
+    border-radius: 1vw;
+    border: none;
+    margin: 2vh 0 0;
+}
+
+#footer{
+    padding: 5vw;
+    background-color: #b8c3d2;
+}
+
+#footer form{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer form input{
+    border: 1px solid grey;
+    padding: 2vw;
+    border-radius: 1vw;
+    margin: 1vw 0;
+}
+
+#submit2{
+    background-color: deeppink;
+    color: white;
+    font-weight: bold;
+    padding: 2vw;
+    border-radius: 1vw;
+    border: none;
+    margin: 1vh 0 0;
+}
+
+@media (min-width: 600px) {
+    #wrapper{
+        height: 100vh;
+        width: 95vw;
+        margin: 2vw 2vw 2vw 2vw;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "header1 footer"
+                                "header2 footer"
+                                "content content";
+    }
+
+    #header{
+        grid-area: header1;
+    }
+
+    #header2{
+        grid-area: header2;
+    }
+
+    #div_form{
+        grid-area: content;
+        background-image: url('../images/background_ia.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    #footer{
+        grid-area: footer;
+    }
+
+    #fondo{
+        display: contents;
+    }
+
+}
+
+
+@media (min-width: 1000px) {
+    #wrapper{
+        height: 100vh;
+        width: 95vw;
+        margin: 2vw 2vw 2vw 2vw;
+        grid-template-columns: 100%;
+        grid-template-areas: "header-content"
+                                "footer";
+    }
+
+
+    #fondo{
+        grid-area: header-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "header1 header1"
+                            ". content"
+                            "header2 content"
+                            ". content";
+        background-image: url('../images/background_ia.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    #header{
+        grid-area: header1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 120%;
+        margin-bottom: 5vw;
+    }
+
+    #header ul{
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        padding: 4vw;
+    }
+
+    #header2{
+        grid-area: header2;
+        justify-content: center;
+        align-items: center;
+        font-size: 250%;
+    }
+
+    #header2 h1{
+        color: white;
+    }
+
+
+    #div_form{
+        grid-area: content;
+        background-image: none;
+        font-size: 130%;
+
+    }
+    #div_form form{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 4vw;
+        width: 60%;
+        border: none;
+        height: 97%;
+        position: relative;
+    }
+
+    #div_form form input{
+        border: 1px solid grey;
+        padding: 1vw;
+        border-radius: 1vh;
+        margin: 1vw 0;
+        font-size: 120%;
+    }
+
+    #submit{
+        background-color: deeppink;
+        color: white;
+        font-weight: bold;
+        padding: 2vw;
+        border-radius: 1vh;
+        border: none;
+        margin: 2vh 0 0;
+        font-size: 130%;
+    }
+
+
+
+    #footer{
+        grid-area: footer;
+        font-size: 110%;
+    }
+
+    #footer form{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #footer form input{
+        width: 20%;
+        font-size: 120%;
+        padding: 0.5vw;
+        margin: 0 0.5vh;
+        border-radius: 0.5vh;
+
+    }
+
+
+    #submit2{
+        width: 30%;
+        background-color: deeppink;
+        color: white;
+        font-weight: bold;
+        padding: 0;
+        border-radius: 0.5vh;
+        border: none;
+        margin: 0;
+        font-size: 100%;
+
+    }
+
+
+}

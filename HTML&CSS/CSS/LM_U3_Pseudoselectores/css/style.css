@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    text-align: center;
+    position: relative;
+    width: 40vw;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: 1px solid black;
+    width: 100px;
+
+}
+table td{
+    text-align: left;
+}
+
+table td:first-child {
+    background-color: green;
+}
+
+table th[colspan="5"] {
+    background-color: yellow;
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:visited {
+    color: red;
+}
+
+h2 a:link {
+    color: green;
+}
+
+table th:nth-child(6):hover {
+    font-size: 200%;
+}
+
+table th:not(table th[colspan="5"]):first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+form{
+    text-align: left;
+    align-self: flex-start
+}
+
+input[required]{
+    padding: 5px;
+    border: 1px solid red;
+    height: 25px;
+}
+
+label::after {
+    content: " *";
+    color: red;
+}

@@ -1,0 +1,321 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    height: 100vh;
+    width: 95vw;
+    display: grid;
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+
+h1, h3{
+    color: dodgerblue;
+}
+h1{
+    text-align: center;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 70%;
+    margin: 2vw auto;
+    display: block;
+}
+
+#content1{
+    width: 100%;
+}
+
+#content2{
+    width: 100%;
+    margin-top: 5vw;
+}
+
+#content3{
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.oculto{
+    display: none;
+}
+
+#background_blue{
+    background-color: dodgerblue;
+    padding: 6vw;
+    color: white;
+    width: 40%;
+    margin: 9vw auto;
+    text-align: center;
+    font-size: 120%;
+
+}
+
+#wrapper:after {
+    content: "";
+    display: block;
+    height: 5vh;
+}
+
+form{
+    text-align: center;
+    border: 2px solid grey;
+    padding: 0 0 3vw 0;
+}
+
+#background_black{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 0;
+}
+
+form p{
+    padding-top: 5vh;
+}
+
+form textarea{
+    width: 50%;
+}
+
+button{
+    width: 95%;
+    background-color: dodgerblue;
+    border: none;
+    padding: 3vw;
+    font-weight: bold;
+    color: white;
+    margin-top: 2vw;
+    font-size: 120%;
+
+}
+
+.largo{
+    width: 55%;
+}
+
+@media (min-width: 600px) {
+    #wrapper{
+        height: 100vh;
+        width: 95vw;
+        display: grid;
+        margin: 2vw 2vw 2vw 2vw;
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr 5fr;
+        grid-template-areas: "first"
+                                "second"
+                                "content1"
+                                "content2"
+                                "content3"
+                                "form";
+    }
+
+    #background_blue{
+        grid-area: second;
+        background-color: dodgerblue;
+        padding: 6vw;
+        color: white;
+        width: 70%;
+        margin: 3vw auto ;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    h1{
+        grid-area: first;
+        color: dodgerblue;
+        text-align: center;
+    }
+
+    #content1{
+        grid-area: content1;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+    }
+
+    #content1 div{
+        padding: 2vw;
+    }
+
+    #content2{
+        grid-area: content2;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+    }
+
+    #content2 div{
+        padding: 2vw;
+    }
+
+    #content2 img{
+        height: 80%;
+    }
+    img{
+        width: 100%;
+        display: block;
+        height: 90%;
+    }
+
+    #content3{
+        grid-area: content3;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        margin-bottom: 2vw;
+    }
+
+    #content3 div{
+        padding: 2vw;
+    }
+
+    #content3 img{
+        width: 70%;
+        height: 60%;
+    }
+
+
+    @media (min-width: 1000px){
+        #wrapper{
+            height: 100vh;
+            width: 95vw;
+            display: grid;
+            margin: 2vw 2vw 2vw 2vw;
+            grid-template-rows: 1fr 2fr 2fr 2fr;
+            grid-template-columns: 3fr 1fr;
+            grid-template-areas:"first second"
+                                    "content1 second"
+                                    "content2 form"
+                                    "content3 form";
+        }
+
+        #background_blue{
+            grid-area: second;
+            background-color: dodgerblue;
+            color: white;
+            padding: 2vw;
+            width: 80%;
+            height: 60%;
+            text-align: center;
+            font-size: 200%;
+            margin-top: 0;
+            margin-bottom: 2vw;
+        }
+
+        h1{
+            grid-area: first;
+            text-align: left;
+            color: dodgerblue;
+            width: 90%;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0 ;
+            font-size: 250%;
+
+        }
+
+
+        #content1{
+            grid-area: content1;
+            display: flex;
+            flex-direction: row;
+            text-align: justify;
+        }
+
+        #content1 div{
+            padding: 2vw;
+        }
+
+        #content1 img{
+            height: 90%;
+            width: 60%;
+        }
+
+        #content2{
+            grid-area: content2;
+            display: flex;
+            flex-direction: row;
+            text-align: justify;
+            margin-top: 0;
+            margin-bottom: 0;
+            height: 50%;
+
+        }
+
+        #content2 div{
+            padding: 2vw;
+        }
+
+        #content2 img{
+            height: 100%;
+            width: 60%;
+            padding-right: 2vw;
+        }
+
+        #content3{
+            grid-area: content3;
+            display: flex;
+            flex-direction: row-reverse;
+            text-align: justify;
+            margin-bottom: 2vw;
+            margin-top: -10vw;
+        }
+
+        #content3 div{
+            padding: 2vw;
+        }
+
+        #content3 img{
+            width: 90%;
+            height: 60%;
+        }
+
+        #content4 form{
+            grid-area: form;
+            text-align: center;
+            border: 2px solid grey;
+            padding: 0 0 3vw 0;
+            height: 100%;
+            margin-top: -3vw;
+        }
+
+        button{
+            width: 95%;
+            background-color: dodgerblue;
+            border: none;
+            padding: 1vw;
+            font-weight: bold;
+            color: white;
+            margin-top: 2vw;
+            font-size: 120%;
+
+        }
+
+        .largo{
+            width: 90%;
+        }
+
+        form textarea{
+            width: 90%;
+        }
+
+        #wrapper:after {
+            content: "";
+            display: block;
+            height: 1vh;
+        }
+
+    }
+}

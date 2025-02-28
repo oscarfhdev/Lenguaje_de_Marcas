@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<torneo_tenis>
+    <nombre>TORNEO 2024 I.E.S Antonio Gala</nombre>
+    <fecha_inicio>01/10/2024</fecha_inicio>
+    <fecha_finalizacion>11/10/2024</fecha_finalizacion>
+
+    <partidos>
+        <partido id="Partido 1">
+            <fecha_partido>01/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Jannik Sinner</nombre>
+                    <edad>23</edad>
+                    <ranking>1 ATP</ranking>
+                    <pais>Italia</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Novak Djokovic</nombre>
+                    <edad>37</edad>
+                    <ranking>4 ATP</ranking>
+                    <pais>Serbia</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>6-4 / 3-6 / 7-5</marcador>
+                <ganador>Jannik Sinner</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 2">
+            <fecha_partido>02/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Carlos Alcaraz</nombre>
+                    <edad>21</edad>
+                    <ranking>2 ATP</ranking>
+                    <pais>España</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Daniil Medvedev</nombre>
+                    <edad>28</edad>
+                    <ranking>5 ATP</ranking>
+                    <pais>Rusia</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>6-2 / 6-3 / 6-4</marcador>
+                <ganador>Carlos Alcaraz</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 3">
+            <fecha_partido>03/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Alexander Zverev</nombre>
+                    <edad>27</edad>
+                    <ranking>3 ATP</ranking>
+                    <pais>Alemania</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Andrey Rublev</nombre>
+                    <edad>26</edad>
+                    <ranking>6 ATP</ranking>
+                    <pais>Rusia</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>4-6 / 7-6 / 6-4</marcador>
+                <ganador>Alexander Zverev</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 4">
+            <fecha_partido>04/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Taylor Fritz</nombre>
+                    <edad>26</edad>
+                    <ranking>7 ATP</ranking>
+                    <pais>Estados Unidos</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Hubert Hurkacz</nombre>
+                    <edad>27</edad>
+                    <ranking>8 ATP</ranking>
+                    <pais>Polonia</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>6-1 / 6-4 / 6-3</marcador>
+                <ganador>Taylor Fritz</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 5">
+            <fecha_partido>05/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Casper Ruud</nombre>
+                    <edad>25</edad>
+                    <ranking>9 ATP</ranking>
+                    <pais>Noruega</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Grigor Dimitrov</nombre>
+                    <edad>33</edad>
+                    <ranking>10 ATP</ranking>
+                    <pais>Bulgaria</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>6-3 / 3-6 / 6-2</marcador>
+                <ganador>Casper Ruud</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 6">
+            <fecha_partido>06/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Alex de Minaur</nombre>
+                    <edad>25</edad>
+                    <ranking>11 ATP</ranking>
+                    <pais>Australia</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Stefanos Tsitsipas</nombre>
+                    <edad>26</edad>
+                    <ranking>12 ATP</ranking>
+                    <pais>Grecia</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>7-5 / 6-7 / 6-3</marcador>
+                <ganador>Alex de Minaur</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 7">
+            <fecha_partido>07/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Tommy Paul</nombre>
+                    <edad>27</edad>
+                    <ranking>13 ATP</ranking>
+                    <pais>Estados Unidos</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Holger Rune</nombre>
+                    <edad>21</edad>
+                    <ranking>14 ATP</ranking>
+                    <pais>Dinamarca</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>6-4 / 6-4 / 6-4</marcador>
+                <ganador>Tommy Paul</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 8">
+            <fecha_partido>08/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Ugo Humbert</nombre>
+                    <edad>26</edad>
+                    <ranking>15 ATP</ranking>
+                    <pais>Francia</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Ben Shelton</nombre>
+                    <edad>21</edad>
+                    <ranking>16 ATP</ranking>
+                    <pais>Estados Unidos</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>6-2 / 6-3 / 7-5</marcador>
+                <ganador>Ugo Humbert</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 9">
+            <fecha_partido>09/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Frances Tiafoe</nombre>
+                    <edad>26</edad>
+                    <ranking>17 ATP</ranking>
+                    <pais>Estados Unidos</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Lorenzo Musetti</nombre>
+                    <edad>22</edad>
+                    <ranking>18 ATP</ranking>
+                    <pais>Italia</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>6-1 / 4-6 / 6-4</marcador>
+                <ganador>Frances Tiafoe</ganador>
+            </resultado>
+        </partido>
+
+        <partido id="Partido 10">
+            <fecha_partido>10/10/2024</fecha_partido>
+            <jugadores>
+                <jugador>
+                    <nombre>Sebastian Korda</nombre>
+                    <edad>24</edad>
+                    <ranking>19 ATP</ranking>
+                    <pais>Estados Unidos</pais>
+                </jugador>
+                <jugador>
+                    <nombre>Jack Draper</nombre>
+                    <edad>22</edad>
+                    <ranking>20 ATP</ranking>
+                    <pais>Reino Unido</pais>
+                </jugador>
+            </jugadores>
+            <resultado>
+                <marcador>7-6 / 6-3 / 6-4</marcador>
+                <ganador>Sebastian Korda</ganador>
+            </resultado>
+        </partido>
+    </partidos>
+</torneo_tenis>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo>Las aventuras de Oscarfh06</titulo>
+    <editorial>osquitarpapel</editorial>
+    <autor>Óscar Fernández Hernández</autor>
+    <precio>35€</precio>
+    <num_paginas>153</num_paginas>
+
+    <capitulos>
+
+        <capitulo numero="1">
+            <nombre>Mi nacimiento</nombre>
+            <pag_inicio>6</pag_inicio>
+            <pag_final>18</pag_final>
+        </capitulo>
+
+        <capitulo numero="2">
+            <nombre>La infancia</nombre>
+            <pag_inicio>19</pag_inicio>
+            <pag_final>35</pag_final>
+        </capitulo>
+
+        <capitulo numero="3">
+            <nombre>Descubrimientos</nombre>
+            <pag_inicio>36</pag_inicio>
+            <pag_final>50</pag_final>
+        </capitulo>
+
+        <capitulo numero="4">
+            <nombre>La adolescencia</nombre>
+            <pag_inicio>51</pag_inicio>
+            <pag_final>70</pag_final>
+        </capitulo>
+
+        <capitulo numero="5">
+            <nombre>El inicio de la aventura</nombre>
+            <pag_inicio>71</pag_inicio>
+            <pag_final>90</pag_final>
+        </capitulo>
+
+        <capitulo numero="6">
+            <nombre>El gran desafío</nombre>
+            <pag_inicio>91</pag_inicio>
+            <pag_final>110</pag_final>
+        </capitulo>
+
+        <capitulo numero="7">
+            <nombre>El reino perdido</nombre>
+            <pag_inicio>111</pag_inicio>
+            <pag_final>130</pag_final>
+        </capitulo>
+
+        <capitulo numero="8">
+            <nombre>El regreso triunfal</nombre>
+            <pag_inicio>131</pag_inicio>
+            <pag_final>150</pag_final>
+        </capitulo>
+        
+    </capitulos>
+
+</libro>

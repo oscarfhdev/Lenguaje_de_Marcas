@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ej2.xsd" orderid="1j">
+    <orderperson>osquitarorder</orderperson>
+    <shipto>
+        <name>Óscar Fernández</name>
+        <address>Avenida de la Paz 0</address>
+        <city>Palma del Río</city>
+        <country>Spain</country>
+    </shipto>
+    <item>
+        <title>Estoy aprendiendo XSD</title>
+        <note>Todo esto me está sirviendo para aprender</note>
+        <quantity>50</quantity>
+        <price>30.99</price>
+    </item>
+    <item>
+        <title>probando otra vez</title>
+        <quantity>10</quantity>
+        <price>9.99</price>
+    </item>
+</shiporder>

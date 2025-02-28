@@ -1,0 +1,44 @@
+<?xml version= "1.0"?>
+
+<rutas>
+    <ruta nombre="Ruta del Jueves">
+        <horario>
+            <comienzo>08:00</comienzo>
+            <final>15:00</final>
+        </horario>
+    
+        <paradas>
+            <parada nombre="Parada 1" hora="08:00">
+                <ubicacion>Ayuntamiento</ubicacion>
+            </parada>
+
+            <parada nombre="Parada 2" hora="09:00">
+                <ubicacion>Hospital</ubicacion>
+            </parada>
+
+            <parada nombre="Parada 3" hora="010:00">
+                <ubicacion>Comisaria</ubicacion>
+            </parada>
+
+            <parada nombre="Parada 4" hora="11:00">
+                <ubicacion>Instituto</ubicacion>
+            </parada>
+
+            <parada nombre="Parada 5" hora="12:00">
+                <ubicacion>Centro Comercial</ubicacion>
+            </parada>
+
+            <parada nombre="Parada 6" hora="13:00">
+                <ubicacion>Aerodromo</ubicacion>
+            </parada>
+
+            <parada nombre="Parada 7" hora="14:00">
+                <ubicacion>Parque Nacional</ubicacion>
+            </parada>
+
+            <parada nombre="Parada 8" hora="15:00">
+                <ubicacion>Ayuntamiento</ubicacion>
+            </parada>
+        </paradas>
+    </ruta>
+</rutas>
