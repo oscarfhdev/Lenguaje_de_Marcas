@@ -1,4 +1,5 @@
-body{
+body{  border-collapse: collapse;
+
     width: 100vw;
     text-align: center;
     align-items: center;
