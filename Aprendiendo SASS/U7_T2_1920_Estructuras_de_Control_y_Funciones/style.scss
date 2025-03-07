@@ -44,3 +44,30 @@ tr{
     font-size: list.nth($font-sizes, $i); // Usamos list.nth() tras importar el módulo
   }
 }
+
+
+
+
+// variable de ancho base
+$anchura: 1000px;
+
+// Función para calcular la anchura
+@function calcularAnchura($anchura, $multiplicador) {
+  @return $anchura * $multiplicador; //multiplica la anchura de arriba(1000) por lo aue le digamos
+}
+
+table {
+  width: calcularAnchura($anchura, 0.2); // la mitad de la anchura base
+}
+
+@media (min-width: 600px) {
+  table {
+    width: calcularAnchura($anchura, 0.5); // la misma
+  }
+}
+
+@media (min-width: 900px) {
+  table {
+    width: calcularAnchura($anchura, 1); // la misma
+  }
+}

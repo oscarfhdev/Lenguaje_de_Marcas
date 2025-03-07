@@ -68,4 +68,19 @@ h6 {
   font-size: 1rem;
 }
 
+table {
+  width: 200px;
+}
+
+@media (min-width: 600px) {
+  table {
+    width: 500px;
+  }
+}
+@media (min-width: 900px) {
+  table {
+    width: 1000px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
