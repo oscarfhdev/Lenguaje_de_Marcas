@@ -1,0 +1,12 @@
+// Lista de colores para las filas
+$listacolores: blue, red, green, orange, lightgreen, purple, yellow, violet, yellowgreen;
+
+// Aplicar colores alternos a las filas de la tabla
+tr{
+  @each $color in $listacolores {
+    &:nth-child(#{index($listacolores, $color)}) {
+      background-color: $color;
+      color: white;
+    }
+  }
+}

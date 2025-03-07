@@ -1,0 +1,38 @@
+tr:nth-child(1) {
+  background-color: blue;
+  color: white;
+}
+tr:nth-child(2) {
+  background-color: red;
+  color: white;
+}
+tr:nth-child(3) {
+  background-color: green;
+  color: white;
+}
+tr:nth-child(4) {
+  background-color: orange;
+  color: white;
+}
+tr:nth-child(5) {
+  background-color: lightgreen;
+  color: white;
+}
+tr:nth-child(6) {
+  background-color: purple;
+  color: white;
+}
+tr:nth-child(7) {
+  background-color: yellow;
+  color: white;
+}
+tr:nth-child(8) {
+  background-color: violet;
+  color: white;
+}
+tr:nth-child(9) {
+  background-color: yellowgreen;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
