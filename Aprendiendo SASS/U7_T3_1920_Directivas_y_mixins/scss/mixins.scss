@@ -1,0 +1,12 @@
+@mixin centrar-bloque { //Centramos
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@mixin centrar-en-linea { //Centramos en línea
+  text-align: center;
+  line-height: 1.5;
+}

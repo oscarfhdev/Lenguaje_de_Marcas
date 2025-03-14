@@ -1,0 +1,27 @@
+@use "mixins" as *;
+
+.sticky-menu {
+  @include centrar-bloque;
+  position: sticky;
+  top: 0;
+  gap: 1vw;
+  background-color: red;
+  width: 50%;
+  padding: 1.5vw;
+  a{
+    text-decoration: none;
+    &:link{
+      background-color: yellow;
+    }
+    &:hover{
+     background-color: white;
+    }
+    &:visited {
+      color: green;
+    }
+    &:active{
+      color: gold;
+    }
+
+  }
+}

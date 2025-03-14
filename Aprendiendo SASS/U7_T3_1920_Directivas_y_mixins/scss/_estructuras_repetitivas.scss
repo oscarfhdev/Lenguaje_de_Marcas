@@ -1,0 +1,41 @@
+@use "sass:list";
+@use "variables" as *;
+
+
+tr,td{
+  border: $bordercolor 1px solid;
+}
+table{
+  tr:first-child {
+    td {
+      text-align: center;
+    }
+  }
+
+  td:nth-child(1) {
+    text-align: left;
+  }
+
+  td:nth-child(2) {
+    text-align: right;
+  }
+  border-collapse: collapse;
+  color: white;
+}
+
+
+// Aplicar colores alternos a las filas de la tabla
+tr{
+  @each $color in $colorlist { //Itera en los colores
+    &:nth-child(#{list.index($colorlist, $color)}) { //Le decimos la filaa la que le pone el color
+      background-color: $color; // Le decimos el color
+    }
+  }
+}
+
+// Estilos para los encabezados (h1-h6)
+@for $i from 1 through list.length($font-sizes) { //El bucle va de 1 a la longitud de la lista, "i" toma ese valor
+  h#{$i} { //"i" se va incrementando entonces va aumentando h1, h2, h3
+    font-size: list.nth($font-sizes, $i); // Usamos list.nth() tras importar el módulo
+  }
+}

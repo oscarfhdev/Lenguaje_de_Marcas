@@ -68,6 +68,45 @@ h6 {
   font-size: 1rem;
 }
 
+.sticky-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  gap: 1vw;
+  background-color: red;
+  width: 50%;
+  padding: 1.5vw;
+}
+.sticky-menu a {
+  text-decoration: none;
+}
+.sticky-menu a:link {
+  background-color: yellow;
+}
+.sticky-menu a:hover {
+  background-color: white;
+}
+.sticky-menu a:visited {
+  color: green;
+}
+.sticky-menu a:active {
+  color: gold;
+}
+
+.claro {
+  background-color: white;
+  color: black;
+}
+
+.oscuro {
+  background-color: black;
+  color: white;
+}
+
 table {
   width: 200px;
 }
@@ -82,5 +121,9 @@ table {
     width: 1000px;
   }
 }
+#contenedor_encabezados {
+  text-align: center;
+  line-height: 1.5;
+}
 
-/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=styles.css.map */

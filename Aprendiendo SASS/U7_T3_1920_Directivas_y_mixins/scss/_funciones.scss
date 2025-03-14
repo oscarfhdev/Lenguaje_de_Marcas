@@ -1,0 +1,4 @@
+// Función para calcular la anchura
+@function calcularAnchura($anchura, $multiplicador) {
+  @return $anchura * $multiplicador; //multiplica la anchura de arriba(1000) por lo aue le digamos
+}

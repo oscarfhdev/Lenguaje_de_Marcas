@@ -1,0 +1,29 @@
+@use "sass:list";
+
+@use "variables" as *;
+@use "estructuras_repetitivas" as*;
+@use "funciones" as *;
+@use "menu" as *;
+@use "temas" as *;
+@use "mixins" as *;
+
+table {
+  width: calcularAnchura($anchura, 0.2); // la mitad de la anchura base
+}
+
+@media (min-width: 600px) {
+  table {
+    width: calcularAnchura($anchura, 0.5); // la misma
+  }
+}
+
+@media (min-width: 900px) {
+  table {
+    width: calcularAnchura($anchura, 1); // la misma
+  }
+}
+
+
+#contenedor_encabezados{
+  @include centrar-en-linea;
+}

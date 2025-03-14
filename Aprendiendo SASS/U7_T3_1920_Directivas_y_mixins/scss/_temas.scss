@@ -1,0 +1,10 @@
+@use "variables" as *;
+.claro {
+  background-color: $tema-claro-fondo;
+  color: $tema-claro-texto;
+}
+
+.oscuro {
+  background-color: $tema-oscuro-fondo;
+  color: $tema-oscuro-texto;
+}
