@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Layout 10</title>
+        <link href="bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div>
+            <img src="./images/logo.png" alt="Aventura">
+            <h1>[Guia] 10 Lugares para um final de semana de Aventura!</h1>
+            <p>Conheca dicas de lugares para quem busca contato com a natureza.</p>
+        </div>
+
+        <div>
+            <div>
+                <img src="./images/10_lugares.png" alt="10_lugares">
+                <h2>Todas as regiões do Brasil</h2>
+                <p>Selecionamos dois lugares de cada região do Brasil para você aproveitar uma aventura de final de semana em contato com a natureza</p>
+            </div>
+
+            <div>
+                <h2>Faça o download grátis aqui!</h2>
+                <p>Basta preencher o formulário abaixo</p>
+            </div>
+
+            <div>
+                <form action="#">
+                    <div>
+                        <label for="name">Nome*</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div>
+                        <label for="email" >Email*</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="status">Estado*</label>
+                        <select name="status" id="status" required>
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="opcion1">Casado</option>
+                            <option value="opcion2">Soltero</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="elegir">Você pratica que tipo de aventura?*</label>
+                        <br>
+                        <input type="checkbox" id="elegir" name="elegir">
+                        <label for="elegir">Trekking</label>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <script src="bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+</html>
