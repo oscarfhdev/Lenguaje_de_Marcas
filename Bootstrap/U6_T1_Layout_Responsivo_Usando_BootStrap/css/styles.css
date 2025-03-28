@@ -7,3 +7,7 @@
 .fondo_gris{
     background-color: #bbbbbb;
 }
+.altura{
+    max-height: 200px;
+    margin: auto;
+}
