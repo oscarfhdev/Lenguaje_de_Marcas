@@ -1,0 +1,94 @@
+@use "variables";
+
+///Esconder los elementos
+@mixin esconder($estado: none){
+  display: $estado;
+}
+
+///Mixin para aplicar el color
+@mixin color_azul_personalizado{
+  color: variables.$azul_personalizado;
+}
+
+/// Creacion del body para que que se ajuste el ancho
+@mixin estilo_body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/// Creamos el wrapper del modo de movil
+@mixin estilo_wrapper{
+  width: 100%;
+}
+
+/// Cambiar tamaño imagen
+@mixin ajustar_imagen($ancho: 100%, $alto: 100%, $radio: 50%){
+  width: $ancho;
+  height: $alto;
+  border-radius: $radio;
+}
+
+/// Crear el menu Sticky, hacemos uso de la variable
+@mixin stickymenu{
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 1;//Para que no se quede atrás
+  background-color: variables.$fondo_encabezado;
+  overflow: visible;
+}
+
+///Creamos un mixin para el flex row{
+@mixin ajustar_flex_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}///Creamos un mixin para el flex colunm{
+@mixin ajustar_flex_column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+///Mixin para cambiar decoracion ul li
+@mixin cambiar_decorate_ulli{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/// Mixin para darle estilo a los botones
+@mixin estilobotones{
+  display: block;
+  background-color: variables.$azul_personalizado;
+
+}
+
+///Configuramos la visibilidad de los botones en el momento de normal, sobre y visitado
+@mixin selectores_boton{
+  &:hover{
+    background-color: white;
+  }
+  &:active{
+    background-color: pink;
+  }
+  &:link{
+    color: red;
+  }
+  &:visited{
+    color: red;
+  }
+
+}
+
+
+///Mixin para centrar horizontalmente una linea
+@mixin centrar_linea{
+  text-align: center;
+}

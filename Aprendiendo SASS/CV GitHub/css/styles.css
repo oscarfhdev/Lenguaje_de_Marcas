@@ -1,0 +1,147 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw;
+  height: 12vh;
+}
+#profile h1, #profile p {
+  display: none;
+}
+#profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  background-color: lightgrey;
+  overflow: visible;
+}
+#header nav ul, #header li, #header a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#header nav ul li, #header li li, #header a li {
+  text-align: center;
+}
+#header nav ul a, #header li a, #header a a {
+  display: block;
+  background-color: #51e1e5;
+  padding: 0.5vw;
+  margin: 1vw;
+}
+#header nav ul a:hover, #header li a:hover, #header a a:hover {
+  background-color: white;
+}
+#header nav ul a:active, #header li a:active, #header a a:active {
+  background-color: pink;
+}
+#header nav ul a:link, #header li a:link, #header a a:link {
+  color: red;
+}
+#header nav ul a:visited, #header li a:visited, #header a a:visited {
+  color: red;
+}
+
+section {
+  text-align: justify;
+  padding: 5vh;
+  background-color: lightskyblue;
+}
+section h2 {
+  text-align: center;
+  padding: 1vw;
+  background-color: white;
+}
+section #contact_url {
+  padding: 0;
+  text-align: center;
+}
+section #contact_url li, section #contact_url a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+section #contact_url a {
+  display: block;
+}
+section #contact_url a:hover {
+  background-color: white;
+}
+section #contact_url a:active {
+  background-color: pink;
+}
+section #contact_url a:link {
+  color: red;
+}
+section #contact_url a:visited {
+  color: red;
+}
+
+footer {
+  background-color: lightgray;
+  text-align: center;
+  padding: 3vh;
+}
+
+@media (min-width: 800px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "menu content";
+    height: 100%;
+    overflow-y: auto;
+  }
+  #header {
+    display: grid;
+    grid-area: menu;
+    height: 100vh;
+  }
+  #header #profile {
+    height: 70%;
+  }
+  #header #profile h1, #header #profile p {
+    display: block;
+    text-align: center;
+  }
+  #header nav {
+    padding: 0;
+    margin: 0;
+  }
+  #sectionsdiv {
+    display: grid;
+    grid-area: content;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  section {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

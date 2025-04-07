@@ -1,0 +1,144 @@
+@use "variables";
+@use "mixins";
+
+
+/// Configuiracion del body
+body{
+  @include mixins.estilo_body;
+}
+
+/// Configuiracion del wrapper
+#wrapper{
+  @include mixins.estilo_wrapper;
+}
+
+///Configuramos el encabezado menu
+#profile{
+  @include mixins.ajustar_flex_column;
+  ///Escondemos con el mixin el texto y el párrafo
+  h1, p{
+    @include mixins.esconder
+  }
+
+  ///Ajustamos la imagen
+  img{
+    @include mixins.ajustar_imagen()
+  }
+  padding: 3vw;
+  height: 12vh;
+}
+
+///Configuramos el header
+#header {
+  ///Aquí centramos la imagen y lo demas
+  @include mixins.ajustar_flex_column;
+
+  ///Configuramos la lista llamando al mixin
+  nav ul,li,a{
+    @include mixins.cambiar_decorate_ulli;
+    ///Ahora aquí probamos el estilo de los botones
+
+    ///Aqui llamamos a los mixin para configurar los botones
+    li{
+      @include mixins.centrar_linea;
+    }
+    a{
+      @include mixins.estilobotones;
+      @include mixins.selectores_boton;
+      padding: 0.5vw;
+      margin: 1vw;
+    }
+
+  }
+  ///Lo ponemos como sticky menu con el mixin
+  @include mixins.stickymenu;
+}
+
+///Configuramos los estilos de la sección
+section {
+  text-align: justify;
+
+  h2 {
+    text-align: center;
+    padding: 1vw;
+    background-color: white;
+  }
+
+  padding: 5vh;
+
+  ///Le asignamos el valor del fondo al contenedor
+  background-color: variables.$fondo_informacion;
+
+  ///A la última sección, le añadimos los mixins de los botones
+  #contact_url {
+    padding: 0;
+    ///Centramos las lineas
+    @include mixins.centrar_linea;
+    li, a {
+      @include mixins.cambiar_decorate_ulli;
+    }
+
+    ///Ponemos el <a> como bloxck y le aplicamos los estilos
+    a{
+      @include mixins.selectores_boton;
+      display: block;
+    }
+  }
+}
+
+///Añadimos el footeer para darle un estilo
+footer{
+  background-color: lightgray;
+
+  ///Llamamos al mixin para centar la linea de los derechos de autor
+  @include mixins.centrar_linea;
+  padding: 3vh;
+}
+
+
+/// Aqui tenemos el media a 850px para tener un diseno responsivo para tablet y ordenador
+@media (min-width: 800px) {
+
+  ///Le hacemos el grid al wrapper
+  #wrapper{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "menu content";
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  ///Personalizamos el header haciendo algunos ajustes para que cuadre bien
+  #header{
+    display: grid;
+    grid-area: menu;
+    height: 100vh;
+    #profile {
+      height: 70%;
+      ///Aquí mostramos con el mixin el campo que habíamos escondido
+      h1,p{
+        @include mixins.esconder(block);
+        @include mixins.centrar_linea;
+      }
+    }
+    nav{
+      padding: 0;
+      margin: 0;
+    }
+  ;
+  }
+
+  ///Al div que engloba todas las secciones lo ponemos a la derecha
+  #sectionsdiv{
+    display: grid;
+    grid-area: content;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  ///Ponemos los div más pequeños y en el centro
+  section{
+    width: 60%;
+    margin: auto;
+  }
+}
