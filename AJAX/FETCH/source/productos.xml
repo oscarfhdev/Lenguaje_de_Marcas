@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tienda>
+    <Productos>
+        <Producto>
+            <Nombre>Smartphone Galaxy X10</Nombre>
+            <Precio>699.99</Precio>
+            <Etiquetas>
+                <Etiqueta>Electrónica</Etiqueta>
+                <Etiqueta>Smartphone</Etiqueta>
+                <Etiqueta>Android</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Portátil UltraBook Pro</Nombre>
+            <Precio>1199.50</Precio>
+            <Etiquetas>
+                <Etiqueta>Informática</Etiqueta>
+                <Etiqueta>Portátil</Etiqueta>
+                <Etiqueta>Trabajo</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Auriculares Inalámbricos SoundMax</Nombre>
+            <Precio>149.99</Precio>
+            <Etiquetas>
+                <Etiqueta>Audio</Etiqueta>
+                <Etiqueta>Bluetooth</Etiqueta>
+                <Etiqueta>Electrónica</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Smartwatch FitLife</Nombre>
+            <Precio>199.95</Precio>
+            <Etiquetas>
+                <Etiqueta>Wearable</Etiqueta>
+                <Etiqueta>Fitness</Etiqueta>
+                <Etiqueta>Salud</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Cámara Reflex ProShot</Nombre>
+            <Precio>899.00</Precio>
+            <Etiquetas>
+                <Etiqueta>Fotografía</Etiqueta>
+                <Etiqueta>Cámara</Etiqueta>
+                <Etiqueta>Alta resolución</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Tablet MediaTab 10"</Nombre>
+            <Precio>329.90</Precio>
+            <Etiquetas>
+                <Etiqueta>Tablet</Etiqueta>
+                <Etiqueta>Multimedia</Etiqueta>
+                <Etiqueta>Táctil</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Teclado Mecánico Gamer RGB</Nombre>
+            <Precio>89.99</Precio>
+            <Etiquetas>
+                <Etiqueta>Gaming</Etiqueta>
+                <Etiqueta>Teclado</Etiqueta>
+                <Etiqueta>RGB</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Monitor UltraWide 34"</Nombre>
+            <Precio>599.00</Precio>
+            <Etiquetas>
+                <Etiqueta>Monitor</Etiqueta>
+                <Etiqueta>UltraWide</Etiqueta>
+                <Etiqueta>Trabajo</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Disco Duro Externo 2TB</Nombre>
+            <Precio>119.00</Precio>
+            <Etiquetas>
+                <Etiqueta>Almacenamiento</Etiqueta>
+                <Etiqueta>USB 3.0</Etiqueta>
+                <Etiqueta>Portátil</Etiqueta>
+            </Etiquetas>
+        </Producto>
+        <Producto>
+            <Nombre>Impresora Multifunción JetPrint</Nombre>
+            <Precio>159.99</Precio>
+            <Etiquetas>
+                <Etiqueta>Oficina</Etiqueta>
+                <Etiqueta>Impresión</Etiqueta>
+                <Etiqueta>Escáner</Etiqueta>
+            </Etiquetas>
+        </Producto>
+    </Productos>
+</Tienda>
+
