@@ -1,0 +1,8 @@
+#loadButton{
+    padding: 1vw 2vw;
+    margin: 0 2vw;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 1vw;
+    cursor: pointer;
+}
