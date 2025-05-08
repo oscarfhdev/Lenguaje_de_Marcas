@@ -1,0 +1,74 @@
+// Editamos las variables principales
+
+$primary: #B1EEF0; // Cambiamos el color principal
+$secondary: #BBBBBB; // Cambiamos el color secundario
+$font-family-base: 'Poppins', sans-serif; // Ponemos la fuente poppins, linkeada en el HTML, si no es posible la sustituye sans-serif
+$grid-breakpoints:(
+  xs: 0,
+  xsm: 350px,
+  sm: 576px,
+  md: 768px,
+  slg: 890px, //Añadimos uno nuevo
+  lg: 992px,
+  xl: 1200px, //Cambiamos los breakpoints a nuestro gusto
+  xxl: 1420px,
+  xxxl: 1514px, //Añadimos uno nuevo
+);
+
+// Importamos Bootstrap (después de las variables)
+@import "../bootstrap-5.3.3/scss/bootstrap";
+
+
+// Configuramos a las clases características específicas
+.nav-link:hover {
+  font-weight: bold !important; // Así se tenemos uno en semibold se tiene en cuenta
+}
+
+.hover-custom-logos {
+  a img:hover {
+    background-color: $secondary;
+    border-radius: 1.2vw;
+  }
+}
+
+.hover-custom-about_me:hover{
+  background-color: lightskyblue !important;
+}
+
+.hover-custom-home:hover {
+  background-color: $light;
+  border-radius: 50%;
+}
+
+a{
+  color: inherit;
+
+  :hover {
+    font-weight: bold;
+  }
+}
+
+.custom-width{
+  width: 60px;
+  min-width: 60px;
+}
+
+.contact-item{
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateX(5px);
+    background-color: $secondary;
+    border-radius: 2vw;
+  }
+}
+
+.btn-primary:hover {
+  font-weight: bold;
+  background-color: #D7FBFDFF;
+}
+
+.img-carousel{
+  display: block;
+  margin: 0 auto;
+}
