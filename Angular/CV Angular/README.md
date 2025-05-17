@@ -13,4 +13,15 @@ Este repositorio contiene un proyecto desarrollado con **Angular**, el framework
 ---
 
 
+## 📦 Requisitos previos
+
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+
+- [Node.js](https://nodejs.org/) (versión recomendada LTS)
+- [Angular CLI](https://angular.io/cli)
+
+Instalación de Angular CLI (si aún no lo tienes):
+
+```bash
+npm install -g @angular/cli
 
