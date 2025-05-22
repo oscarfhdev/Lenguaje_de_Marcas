@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "css"
         }
       },
       "root": "",
@@ -24,7 +24,7 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "css",
             "assets": [
               "src/assets",
               {
@@ -33,9 +33,12 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/bootstrap_custom.min.css",
+              "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"
+            ],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -89,7 +92,7 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "css",
             "assets": [
               {
                 "glob": "**/*",
@@ -97,12 +100,15 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "de61f30c-d69d-4c77-ae15-08581d736eaf"
   }
 }
