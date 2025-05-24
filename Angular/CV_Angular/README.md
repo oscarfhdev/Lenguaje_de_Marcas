@@ -8,7 +8,7 @@ Este repositorio contiene un proyecto desarrollado con **Angular**, el framework
 
 - [Angular](https://angular.io/) – Framework para crear aplicaciones SPA modernas.
 - [Angular CLI](https://angular.io/cli) – Herramienta oficial para crear, compilar y mantener proyectos Angular.
-- [Angular Material](https://material.angular.io/) – Conjunto de componentes de UI basados en Material Design.
+- [Booststrap 5](https://getbootstrap.com/) – Estructura personalizada reutilizable
 
 ---
 
