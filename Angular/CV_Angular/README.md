@@ -1,6 +1,6 @@
 # Proyecto Angular con Angular Material
 
-Este repositorio contiene un proyecto desarrollado con **Angular**, el framework de desarrollo web frontend de Google. El proyecto hace uso de **Angular Material** para implementar una interfaz de usuario moderna, accesible y responsive siguiendo las directrices de Material Design.
+Este repositorio contiene un proyecto desarrollado con **Angular**, el framework de desarrollo web frontend de Google. El proyecto hace uso de **Booststrap 5** para implementar una interfaz de usuario moderna, accesible y responsive, haciendola atractiva al usuario.
 
 ---
 
