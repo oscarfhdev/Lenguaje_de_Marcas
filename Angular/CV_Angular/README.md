@@ -1,4 +1,4 @@
-# Proyecto Angular con Angular Material
+# Proyecto Angular con Bootstrap
 
 Este repositorio contiene un proyecto desarrollado con **Angular**, el framework de desarrollo web frontend de Google. El proyecto hace uso de **Booststrap 5** para implementar una interfaz de usuario moderna, accesible y responsive, haciendola atractiva al usuario.
 
@@ -8,7 +8,7 @@ Este repositorio contiene un proyecto desarrollado con **Angular**, el framework
 
 - [Angular](https://angular.io/) – Framework para crear aplicaciones SPA modernas.
 - [Angular CLI](https://angular.io/cli) – Herramienta oficial para crear, compilar y mantener proyectos Angular.
-- [Booststrap 5](https://getbootstrap.com/) – Estructura personalizada reutilizable
+- [Bootstrap 5](https://getbootstrap.com/) – Estructura personalizada reutilizable
 
 ---
 
