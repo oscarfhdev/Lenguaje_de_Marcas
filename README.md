@@ -1,22 +1,41 @@
-# 📚 Lenguaje de Marcas  
+# 📚 Lenguaje de Marcas
 
-Este repositorio contiene ejercicios y prácticas realizadas en la asignatura de **Lenguaje de Marcas**, donde he trabajado con diversas tecnologías para maquetado, presentación y manipulación de datos en la web.  
+Este repositorio recopila todas las prácticas y ejercicios que he realizado a lo largo del curso de **Lenguaje de Marcas**. Durante el curso he trabajado con tecnologías clave para la estructuración, maquetación y presentación de contenido en la web.
 
-## 📌 Contenidos  
+---
 
-🔹 **XML & XSD** - Creación y validación de documentos XML con esquemas XSD.  
-🔹 **XPath & XQuery** - Consulta y manipulación de datos en documentos XML.  
-🔹 **HTML & CSS** - Desarrollo de estructuras web y estilos para páginas web.  
-🔹 **SASS** - Uso de preprocesadores CSS para optimizar el desarrollo de estilos.  
-🔹 **JavaScript (próximamente)** - Interactividad y programación en el lado del cliente.  
-🔹 **Gulp (próximamente)** - Automatización de tareas en el desarrollo web.  
+## 📌 Contenidos del curso
 
-## 🚀 ¿Por qué es importante?  
+A continuación, una lista de los principales temas y tecnologías que he aprendido e implementado en este repositorio:
 
-- **XML/XSD**: Facilitan el almacenamiento y estructuración de datos en diferentes sistemas.  
-- **XPath/XQuery**: Permiten buscar, extraer y manipular datos en documentos XML.  
-- **HTML/CSS**: Son la base de cualquier página web, asegurando una correcta estructura y diseño.  
-- **SASS**: Mejora la organización y mantenimiento del código CSS, facilitando el desarrollo FrontEnd.  
-- **JavaScript**: Permite crear páginas dinámicas y mejorar la experiencia del usuario.  
-- **Gulp**: Optimiza y automatiza tareas de archivos, preprocesamiento de SASS y más.  
+### 🔹 XML & XSD
+- Creación de documentos XML estructurados.
+- Validación mediante esquemas XML Schema (XSD).
 
+### 🔹 XPath & XQuery
+- Búsqueda, extracción y manipulación de datos en documentos XML.
+- Consultas avanzadas para trabajar con estructuras jerárquicas.
+
+### 🔹 HTML & CSS
+- Maquetación de páginas web semánticas.
+- Diseño visual adaptable mediante CSS.
+- Prácticas como CVs y sitios básicos.
+
+### 🔹 SASS (SCSS)
+- Uso de preprocesadores CSS.
+- Variables, mixins, anidamiento y modularización del código CSS.
+- Mejora de la escalabilidad y mantenimiento de estilos.
+
+### 🔹 Bootstrap
+- Uso del framework Bootstrap para crear interfaces responsivas y modernas.
+- Componentes, grid system, utilidades y personalización.
+
+### 🔹 JavaScript
+- Scripts para mejorar la interactividad en páginas web.
+- Uso de `fetch()` y AJAX para comunicación asíncrona con servidores.
+
+### 🔹 Angular
+- Introducción al desarrollo frontend moderno con Angular.
+- Creación de componentes, data binding, y estructuración de una SPA.
+
+---
