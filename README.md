@@ -39,3 +39,21 @@ A continuación, una lista de los principales temas y tecnologías que he aprend
 - Creación de componentes, data binding, y estructuración de una SPA.
 
 ---
+
+## 🚀 ¿Por qué es importante todo esto?
+
+Cada una de estas tecnologías cumple un rol esencial en el desarrollo web moderno:
+
+| Tecnología      | Utilidad clave |
+|----------------|----------------|
+| **XML/XSD**     | Estandariza y valida datos estructurados. |
+| **XPath/XQuery**| Permite consultas potentes sobre estructuras XML. |
+| **HTML/CSS**    | Construyen la base visual y semántica de una web. |
+| **SASS**        | Escala los estilos CSS de manera profesional. |
+| **Bootstrap**   | Acelera el diseño responsivo y moderno. |
+| **JavaScript**  | Hace posible la interactividad y la lógica de cliente. |
+| **Angular**     | Facilita el desarrollo de aplicaciones web completas y modulares. |
+
+---
+
+¡Gracias por visitar el repositorio! 🚀
